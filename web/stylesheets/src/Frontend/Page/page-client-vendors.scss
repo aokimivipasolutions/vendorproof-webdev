@@ -1,3 +1,8 @@
+@import "../../config/base-import";
+
+@include fontFace('GlyphLib', '/glyph-lib', 'vp-glyph-font');
+@import "../../FrontendResponsive/components/partials/messages";
+
 .business_name .val input,
 .dba_name .val input {
   width: 100%;
