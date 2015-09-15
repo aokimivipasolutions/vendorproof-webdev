@@ -1,0 +1,388 @@
+@import "../../config/base-import";
+
+$bottom-row-box-inner-height: 240px;
+
+#body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard .dashboard-content,
+.dashboard .report-detail.active,
+.dashboard .reports.active {
+  display: block;
+}
+
+.report-detail {
+  padding: 0 20px;
+  nav {
+    text-align: right;
+    padding: 5px 0;
+  }
+}
+
+.graph h2 {
+  margin: 20px 0;
+  border-bottom: 1px dotted #d0d0d0;
+  line-height: 1.5;
+}
+
+.graph + .graph {
+  margin-top: 50px;
+}
+
+.graph-table .highcharts-graph {
+  margin: 10px 0 0;
+  border: 1px solid #ccc;
+}
+
+.graph-table h2 {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.report {
+  border: 1px solid #DDDDDD;
+}
+
+.report .heading {
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border-bottom: 3px solid #DDDDDD;
+  background: #fdfdfd;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(6%, #fdfdfd), color-stop(10%, #f3f3f3), color-stop(100%, #f9f9f9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #fdfdfd 6%, #f3f3f3 10%, #f9f9f9 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fdfdfd 0%, #fdfdfd 6%, #f3f3f3 10%, #f9f9f9 100%);
+  /* W3C */
+}
+
+.ieonly .report .heading {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f9f9f9',GradientType=0 );
+  /* IE6-8 */
+}
+
+.report .delayed-content.loading,
+.loading .graph {
+  background: center center transparent url(/resources/dyn/files/1904773z93ac504a/_fn/ajax-loader.gif) no-repeat;
+}
+
+.report .workspace {
+  padding: 0 10px;
+}
+
+.report .stat-link {
+  line-height: 24px;
+  padding: 5px 0;
+}
+
+.report .stat-link .icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 24px;
+  height: 24px;
+}
+
+.report .stat {
+  &.people .icon {
+    background-image: url(/resources/dyn/files/1904612zb333ad6d/_fn/community.png);
+  }
+
+  &.documents .icon {
+    background-image: url(/resources/dyn/files/1904611z2a3afcd7/_fn/blue-folder.png);
+  }
+
+  &.pie .icon {
+    background-image: url(/resources/dyn/files/1904613zc4349dfb/_fn/pie-chart.png);
+  }
+}
+
+.report {
+  .stat-link {
+    .icon {
+      margin-right: 5px;
+    }
+
+    .data {
+      display: inline-block;
+      width: 40px;
+    }
+
+    .label {
+      color: #447777;
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .stat-box {
+    display: table;
+    padding: 0;
+    height: 70px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    .inner-stat-wrap {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 15px 10px;
+    }
+
+    .data {
+      display: block;
+      font-size: 30px;
+    }
+
+    .label {
+      font-size: 13px;
+    }
+  }
+}
+  /* specific report styles */
+  .basic .report.summary > .heading {
+    border: none;
+    padding: 0;
+  }
+
+  .basic .report.summary .stats.delayed-content {
+    min-height: 70px;
+  }
+
+  .basic .report.summary .stat {
+    float: left;
+    width: 33%;
+  }
+
+  .basic .report.cautions {
+    float: left;
+    width: 350px;
+    margin-right: 10px;
+  }
+
+  .basic .report.cautions .stats.delayed-content {
+    min-height: 210px;
+  }
+
+  .basic .report.monitoring .delayed-content {
+    height: $bottom-row-box-inner-height;
+  }
+
+  .nomonitor .basic .report.monitored-vendors {
+    width: 526px;
+    margin-right: 0;
+  }
+  .basic .report.monitored-vendors {
+    h2 {
+      display: none;
+    }
+
+    .workspace {
+      padding: 0;
+      text-align: center;
+    }
+
+    .overall.delayed-content {
+      margin: 0 auto;
+      height: $bottom-row-box-inner-height;
+    }
+
+    .graph {
+      .highcharts-graph {
+        display: inline-block;
+        height: 237px;
+        overflow: hidden;
+
+        .highcharts-container {
+          margin-top: -110px;
+        }
+
+      }
+      .row-label {
+        text-align: center;
+      }
+    }
+  }
+  .basic .report.monitoring .workspace {
+    padding: 0;
+  }
+
+  .basic .report.monitoring .monitorservices-matches.stat-box {
+    background: #bb011a;
+    color: #fff;
+  }
+
+  .basic .report.monitoring .monitorservices-suspected-matches.stat-box {
+    background: #ee8122;
+    color: #fff;
+  }
+
+  .basic .report.monitoring .monitorservices-lapsed.stat-box {
+    background: #489cfe;
+    color: #fff;
+  }
+
+  .basic .report .no-entries.stat-box {
+    background: #eaeaea;
+    color: #aaa;
+  }
+
+  .reports-box {
+    @include clearfix;
+    margin-top: 15px;
+
+    .report {
+      float: left;
+    }
+
+    .monitored-vendors {
+      margin-right: 15px;
+      .workspace {
+        width: 500px;
+        margin: 0 auto;
+      }
+    }
+
+    .monitoring {
+      width: 172px;
+      max-width: 190px;
+    }
+  }
+
+  .key-stats {
+    width: 410px;
+    max-width: 410px;
+    margin-right: 15px;
+//    .stat-link {
+//      margin-top: 10px;
+//      margin-bottom: 8px;
+//
+//      .expiring_vendors {
+//        margin-top: 8px;
+//      }
+//
+//      .data {
+//        font-size: 16px;
+//      }
+//
+//      .label {
+//        float: none;
+//        font-size: 15px;
+//      }
+//    }
+//
+//    .stat-link:first-child {
+//      margin-top: 0;
+//    }
+//
+//    .stat-link:last-child {
+//      margin-bottom: 0;
+//    }
+
+    .workspace {
+      padding: 0;
+    }
+
+    .stats {
+      height: $bottom-row-box-inner-height;
+    }
+
+    .stat.stat-box {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 50%;
+      height: 50%;
+      vertical-align: top;
+
+      &:nth-child(-n+2) {
+        border-bottom: 1px solid #cacaca;
+      }
+
+      &:nth-child(even) {
+        border-left: 1px solid #cacaca;
+      }
+
+      .inner-stat-wrap {
+        display: table;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+      }
+
+      .extra-inner-stat-wrap {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+  }
+
+  .adv .report.expirations,
+  .adv .report.cautions,
+  .adv .report.monitoring {
+    width: 286px;
+    float: left;
+    vertical-align: top;
+  }
+
+  .nomonitor .adv .report.expirations,
+  .nomonitor .adv .report.cautions {
+    width: 437px;
+  }
+
+  .adv .report.cautions,
+  .adv .report.monitoring {
+    margin-left: 12px;
+  }
+
+  .adv .report.expirations .delayed-content,
+  .adv .report.cautions .delayed-content,
+  .adv .report.monitoring .delayed-content {
+    min-height: 150px;
+  }
+
+  .adv .report.summary .overall {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 70px;
+    width: 25%;
+    float: left;
+  }
+
+  .adv .report.summary .percentage .label {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .adv .report.summary .percentage .symbol {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .adv .report.summary .stats {
+    min-height: 70px;
+    width: 70%;
+    float: left;
+  }
+
+  .adv .report.summary .stat {
+    float: left;
+  }
+
+  .adv .report.summary .stat.people {
+    width: 60%;
+  }
+
+  .adv .report.summary .stat.documents {
+    width: 40%;
+  }
