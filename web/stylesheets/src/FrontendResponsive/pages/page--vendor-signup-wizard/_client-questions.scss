@@ -16,10 +16,35 @@
 			margin: 0 0 5px;
 		}
 
+		.agreement_prose {
+			margin: 0 0 5px;
+		}
+
+		.signature {
+			.name,
+			.date {
+				display: block;
+				margin: 5px 0;
+
+				label {
+					display: inline-block;
+					width: 100px;
+				}
+			}
+		}
+
 		.ctb,
 		.rtb {
 			display: block;
 			margin: 0 0 5px;
+		}
+
+		.form_field {
+			margin: 20px 0;
+		}
+
+		td.choice_con {
+			display: block;
 		}
 	}
 
@@ -29,6 +54,23 @@
 				font-weight: bold;
 				display: block;
 				margin: 0 0 5px;
+			}
+
+			.signature {
+				.name,
+				.date {
+					display: inline-block;
+					margin: 5px 0;
+
+					label {
+						width: auto;
+						margin-right: 5px;
+					}
+				}
+
+				.date {
+					margin-left: 15px;
+				}
 			}
 
 			.ctb,
