@@ -73,7 +73,12 @@ gulp.task('javascript:build', function() {
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
         .pipe(sourcemaps.write('../sourcemaps/', {
-            sourceMappingURLPrefix: '/_sourcemaps'
+            sourceMappingURL: function(file) {
+                var fn = file.path.lastIndexOf('/');
+                if(fn > -1 && file.path.length > ++fn) fn = file.path.substring(fn);
+                else fn = file.path;
+                return '/_sourcemaps/' + fn + '.map';
+            }
         }))
         .pipe(flatten({includeParents: 2}))
         .pipe(gulp.dest('./build/javascript'))
@@ -96,10 +101,16 @@ gulp.task('javascript:copy-min', function() {
         .pipe(sourcemaps.init({ debug: true }))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(sourcemaps.write('../sourcemaps/', {
-            sourceMappingURLPrefix: '/_sourcemaps'
+        .pipe(gulp.dest('./build/javascript/vendor'))
+        .pipe(sourcemaps.write('../../sourcemaps/', {
+         sourceMappingURL: function(file) {
+             var fn = file.path.lastIndexOf('/');
+             if(fn > -1 && file.path.length > ++fn) fn = file.path.substring(fn);
+             else fn = file.path;
+             return '/_sourcemaps/' + fn + '.map';
+         }
         }))
-        .pipe(flatten({includeParents: 2}))
+        .pipe(flatten({includeParents: 3}))
         .pipe(gulp.dest('./build/javascript/vendor'))
         ;
 });*/
