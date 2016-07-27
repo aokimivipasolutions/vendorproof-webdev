@@ -1,0 +1,52 @@
+s/\.pager_top/.pager-top/g
+s/\.first_column/.first-column/g
+s/\.last_column/.last-column/g
+s/\.miwt_highlight/.miwt-table/g
+s/\.type_\([^a-z0-9_]\)/.type-(\1)/g
+s/a\.miwt_collapsable_hidden/.miwt-collapsable.hidden .trigger/g
+s/a\.miwt_collapsable_shown/.miwt-collapsable.shown .trigger/g
+s/a\.miwt_collapsable_trigger/.miwt-collapsable .trigger/g
+s/[a-z]*\.miwt_collapsable_hidden/.miwt-collapsable.hidden/g
+s/[a-z]*\.miwt_collapsable_shown/.miwt-collapsable.shown/g
+s/[a-z]*\.miwt_collapsable_trigger/.miwt-collapsable .trigger/g
+s/[a-z]*\.miwt_collapsable_content/.miwt-collapsable-content/g
+s/[a-z]*\.miwt_collapsable_float span.close_button_con/.miwt-collapsable[data-disposition~="float"] .miwt-collapsable-content span.close-con/g
+s/[a-z]*\.miwt_collapsable_float/.miwt-collapsable[data-disposition~="float"]/g
+s/miwt_collapsable_SOUTH_inline/miwt-collapsable[data-anchor="south"] .trigger/g
+s/a\.miwt_submit/a[data-features~="submit"]/g
+s/\.miwt_collapsable_inline_wrapper/.miwt-collapsable[data-disposition~="inline"]/g
+s/\.message_container/.message-container/g
+s/#reset_password/#reset-password/g
+s/\.password_reset \.actions_con/.password-reset .actions-con/g
+s/\.password_reset \.username_con/.password-reset .username/g
+s/\.password_reset \.password_con/.password-reset .password/g
+s/\.password_reset \.password_verification_con/.password-reset .password-verification-con/g
+s/\.password_reset/.password-reset/g
+s/\.loginbean \.username_con/.loginbean .username-con/g
+s/\.loginbean \.actions_con/.loginbean .actions-con/g
+s/\.loginbean \.username_con/.loginbean .username-con/g
+s/\.loginbean \.password_con/.loginbean .password-con/g
+s/\.miwt_tree/.miwt-tree/g
+s/\.procedure_navigation_top_con/.procedure-navigation-top-con/g
+s/\.procedure_navigation_bottom_con/.procedure-navigation-bottom-con/g
+s/\.procedure_navigation_con/.procedure-navigation-con/g
+s/\.procedure_navigation_top/.procedure-navigation-top/g
+s/\.procedure_navigation_bottom/.procedure-navigation-bottom/g
+s/\.procedure_navigation/.procedure-navigation/g
+s/\.cancel_button_con/.cancel-button-con/g
+s/\.finish_button_con/.finish-button-con/g
+s/\.previous_button_con/.previous-button-con/g
+s/\.next_button_con/.next-button-con/g
+s/\.cancel_button/.cancel-button/g
+s/\.finish_button/.finish-button/g
+s/\.previous_button/.previous-button/g
+s/\.next_button/.next-button/g
+s/\.site_search_form_inner/.site-search-form-inner/g
+s/\.site_search_form/.site-search-form/g
+s/\.site_search_results/.site-search-results/g
+s/\.results_title/.results-title/g
+s/\.results_count/.results-count/g
+s/\.results_per_page/.results-per-page/g
+s/\.new_window/.new-window/g
+s/\.no_results/.no-results/g
+s/\.more_results/.more-results/g
