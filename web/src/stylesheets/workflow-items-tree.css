@@ -1,0 +1,177 @@
+.tree_actions button.add_button {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.workflow_items_tree td {
+  padding: 0 5px;
+  vertical-align: top;
+  line-height: 1.6em;
+}
+
+.workflow_items_tree td img {
+  margin-top: 3px;
+  height: 15px; 
+  width: 15px; 
+  opacity: 0.5;
+}
+
+.workflow_items_tree td img:hover {
+  opacity: 1;
+}
+
+/*hiding "view" button unless item is completed or canceled*/
+.workflow_items_tree .miwt_button.action_view {
+  visibility: hidden;
+}
+
+.workflow_items_tree tr.complete .miwt_button.action_view,
+.workflow_items_tree tr.canceled .miwt_button.action_view {
+  visibility: visible;
+}
+
+.workflow_item_view .approval_state {
+  font-weight: bold;
+}
+
+.workflow_item_view .explanation {
+  font-style: italic;
+}
+
+.active.level1 span.row_actions {
+  background-image: none;
+  padding: 0;
+}
+
+button.action_configure {
+  background: transparent url(/resources/all/docroot/miwt/component/images/cog-16x16.png);
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+  background-position: center center;
+  background-color: transparent;
+  padding: 2px 10px;
+  border: none;
+  opacity: 0.5;
+  /*unbreak images in ie*/
+  filter: none; 
+}
+
+button.action_configure:hover {
+  background-position: center center;
+  background-color: transparent;
+  opacity: 1;
+}
+
+#ie7only button.action_configure {
+  text-indent: 0;
+  font-size: 1px;
+  color: #f3f4f4;
+  height: 22px;
+}
+
+#ie7only button.action_configure,
+#ie8only button.action_configure {
+  filter: none;
+}
+
+.address_change_form.summary .hidden_field {
+  display: none;
+}
+
+/* The rest is to get some vertical space at the top of the tab content,
+so the tree view can have a better position */
+.location_details label.profile_name {
+  width: auto;
+}
+
+.location_details  .viewer .store_info {
+  width: 100%;
+}
+
+.location_details  .viewer  {
+  margin-bottom: 0px;
+}
+
+.location_details .tree_actions {
+  overflow: hidden;
+}
+
+.location_details .tree_actions span {
+  float: right;
+}
+
+tr.level2 .item_name {
+  line-height: 24px;
+  font-weight: bold;
+}
+
+tr .item_name {
+  font-weight: bold;
+}
+
+tr.non_control_item.active .item_name:before {
+  content: "*";
+}
+
+.control_item .assigned_or_completed {
+  display: none;
+}
+
+.workflow_item_configure.field_viewer .summary_con {
+  display: inline-block;
+}
+
+.workflow_item_configure.field_viewer .summary_con label {
+  display: inline;
+}
+
+.workflow_item_configure.field_viewer .summary_con label:after {
+  content: ":";
+}
+
+/* colors for status indicators */ 
+.blocked .status,
+.blocked .item_name {color: #dd2222;}
+.blocked .status:before {background-color: #dd2222;}
+.active .status,
+.active .item_name {color: #3992ad;}
+.active .status:before { background-color: #3992ad;}
+.pending .status,
+.pending .item_name { color: #c1bb17; }
+.pending .status:before { background-color: #f3e500; }
+.complete .status, 
+.complete .item-name {color: #4cb82f;}
+.complete .status:before { background-color: #4cb82f;}
+
+
+/* workflow item styles */ 
+.workflow_item_configure .field_viewer,
+.workflow_item_configure .field_editor {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #aaa;
+}
+
+.workflow_item_configure label.field_name {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #23596a;
+}
+
+.workflow_item_configure label {
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+}
+
+.workflow_item_configure .prop.content {
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.persistence_actions {
+   margin: 10px 0;
+   display: block;
+}
+

@@ -1,0 +1,91 @@
+/**
+* For collapsible content
+*/
+@mixin style-popup-box($padding: 10px) {
+  padding: $padding;
+  background-color: $color-white;
+  border: 1px solid $color-cloud-grey;
+  box-shadow: 3px 3px 10px transparentize($color-black, 0.55);
+}
+@mixin style-h1 {
+  font-family: $font-georgia;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@mixin style-h2 {
+  font-family: $font-georgia;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+@mixin style-h3 {
+  color: #23596a;
+  font-family: $font-georgia;
+  font-weight: normal;
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+@mixin style-h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+@mixin style-h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+@mixin style-h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+@mixin style-message-override($color-text, $color-bg, $color-border, $color-content, $content: "") {
+  padding-left: 40px;
+  color: $color-text;
+  background-color: $color-bg;
+
+  &:before {
+    display: block;
+    color: $color-content;
+    content: $content;
+  }
+}
+
+@mixin style-message-base {
+  display: block;
+  position: relative;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 3px;
+
+  &:before {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font-size: 20px;
+    font-family: $font-glyph-lib;
+  }
+}
+
+@mixin style-message-error {
+  @include style-message-override(#D74300, #FFD9DA, #FFABAD, #FA797C, $html-entity-error);
+  font-weight: bold;
+}
+
+@mixin style-message-important {
+  @include style-message-override(#A08F29, #FFF5BA, #EAD65C, #DBC018, $html-entity-warning);
+}
+
+@mixin style-message-success {
+  @include style-message-override(#57944f, #cdf7c7, #9CF39A, #57944f, $html-entity-success);
+}
+
+@mixin style-message-info {
+  @include style-message-override(#1a608a, #D6F0FF, #BEE5FB, #1a608a, $html-entity-info);
+}

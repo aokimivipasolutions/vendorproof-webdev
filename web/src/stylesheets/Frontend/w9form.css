@@ -1,0 +1,381 @@
+.w9form {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.w9form h1 {
+  text-align: center;
+}
+
+.w9form .section {
+  border-bottom: 1px solid #000;
+  zoom: 1;
+}
+
+.w9form .section:before,
+.w9form .section:after {
+  content: "";
+  display: table;
+}
+
+.w9form .section:after {
+  clear: both;
+}
+
+.w9form .header .form_id {
+  float: left;
+  border-right: 1px solid #000;
+  width: 150px;
+  height: 95px;
+}
+
+.w9form .header .form_id .form_name {
+  display: block;
+}
+
+.w9form .header .form_id .form_number {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.w9form .header .form_revision {
+  display: block;
+  font-size: 11px;
+}
+
+.w9form .header .form_full_name {
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: 600px;
+  height: 75px;
+  padding-top: 20px;
+}
+
+.w9form .header .form_submission_instructions {
+  float: left;
+  width: 128px;
+  border-left: 1px solid #000;
+  padding: 15px 10px;
+  font-weight: bold;
+  height: 65px;
+  line-height: 1.5;
+}
+
+.genform .w9form .instructions {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.w9form .basic_info {
+  position: relative;
+}
+
+.w9form .basic_info .instructions {
+  position: absolute;
+  left: -125px;
+  top: 135px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  width: 300px;
+}
+
+.w9form .basic_info .form {
+  margin-left: 50px;
+  border-left: 1px solid #000;
+}
+
+.w9form .basic_info .question > label {
+  font-size: 11px;
+  display: block;
+  padding-left: 10px;
+}
+
+.w9form .basic_info input[type=text] {
+  background: #f1f4ff;
+  padding: 5px;
+  margin: 0;
+  border: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.w9form .basic_info input[type=text]:focus {
+  border: none;
+  box-shadow: none;
+  background: #fff;
+}
+
+.w9form .basic_info select {
+  padding: 4px 0;
+  border: none;
+  background: transparent
+}
+
+.w9form .basic_info .question {
+  border-bottom: 1px solid #000;
+}
+
+.w9form .basic_info .classification {
+  width: 725px;
+  float: left;
+  height: 140px;
+}
+
+.w9form .classification > div {
+  line-height: 26px;
+}
+
+.w9form .classification .sole_proprietor,
+.w9form .classification .c_corp,
+.w9form .classification .s_corp,
+.w9form .classification .partnership,
+.w9form .classification .trust,
+.w9form .classification .llc,
+.w9form .classification .llc_tax_class {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.w9form .classification .sole_proprietor,
+.w9form .classification .llc,
+.w9form .classification .other {
+  margin-left: 10px;
+}
+
+.w9form .classification .llc,
+.w9form .classification .other {
+  margin-top: 10px;
+}
+
+.w9form .basic_info .exempt {
+  float: left;
+  width: 123px;
+  height: 140px;
+  border-left: 1px solid #000;
+}
+
+.w9form .basic_info .exempt > label {
+  display: none;
+}
+
+.w9form .basic_info .exempt .ctb {
+  font-size: 12px;
+  padding-top: 60px;
+  padding-left: 10px;
+  display: block;
+}
+
+.w9form .basic_info .address {
+  clear: both;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+
+.w9form .basic_info .address_form label {
+  display: none;
+}
+
+.w9form .basic_info .address_form input,
+.w9form .basic_info .address_form select {
+  position: absolute;
+  top: 200px;
+}
+
+.w9form .basic_info .address_form input.address_line_first {
+  top: 14px;
+  left: 0;
+  width: 300px;
+}
+
+.w9form .basic_info .address_form input.address_line_last {
+  top: 14px;
+  left: 301px; 
+  width: 300px; 
+}
+
+.w9form .basic_info .address_form input.city {
+  top: 55px;
+  left: 0; 
+  width: 249px; 
+}
+
+.w9form .basic_info .address_form select.region {
+  top: 55px;
+  left: 256px; 
+  width: 190px; 
+  margin: 0;
+}
+
+.w9form .basic_info .address_form input.postal_code {
+  top: 55px;
+  left: 451px; 
+  width: 150px; 
+}
+
+.w9form .basic_info .question_subgroup .question {
+  display: inline-block;
+  vertical-align: top;
+  height: 40px;
+  border-right: 1px solid #000;
+}
+
+.w9form .basic_info .street_address .address_line {
+  width: 300px;
+}
+
+.w9form .basic_info .area .question {
+  border-bottom: none;
+}
+
+.w9form .basic_info .area .city {
+  width: 249px;
+}
+
+.w9form .basic_info .area .region {
+  width: 200px;
+}
+
+.w9form .basic_info .area .postal_code {
+  width: 150px;
+}
+
+.w9form .basic_info .account_numbers {
+  border: none;
+}
+
+.w9form .section .heading {
+  border-bottom: 1px solid #000;
+}
+
+.w9form .section .heading .name {
+  background: #000;
+  color: #fff;
+  padding: 3px 5px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.w9form .section .heading .description {
+  font-weight: bold;
+}
+
+.w9form .part1 .instructions {
+  float: left;
+  width: 650px;
+}
+
+.w9form .part1 .form {
+  float: left;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.w9form .part1 .form .question {
+  margin: 15px 0;
+}
+
+.w9form .part1 .form .question label {
+  font-size: 12px;
+}
+
+.w9form .part1 .form .question .val {
+  display: block;
+  border: 1px solid #000;
+  height: 30px;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+
+
+.w9form .part2 .form {
+  border-top: 3px solid #000;
+  padding: 20px;
+}
+
+.w9form .actions {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.block-actions {
+    text-align: center;
+}
+
+.block-actions .actions {
+    background-color: #f4f4f4;
+    display: inline-block;
+    width: 46%;
+    border: 1px solid #d9d9d9;
+    margin: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.block-actions .online {
+    position: relative;
+}
+
+.block-actions .online::after {
+    content: "OR";
+    color: #777;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    right: -24px;
+    top: 15px;
+    height: 42px;
+    width: 44px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    border: 1px solid #d9d9d9;
+}
+
+.path.actions {
+    padding: 7px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.upload-file {
+    text-align: center;
+}
+
+.upload-w9 {
+    padding: 20px;
+}
+
+.upload-w9 .file_info {
+    text-align: left;
+}
+
+.complete-or-upload {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.complete-or-upload > .actions {
+    padding: 10px;
+}
