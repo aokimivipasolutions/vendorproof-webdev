@@ -1,0 +1,5 @@
+.birth_date .part {
+    display: inline-block !important;
+    margin-right: 10px !important;
+    margin-bottom: 5px !important;
+}

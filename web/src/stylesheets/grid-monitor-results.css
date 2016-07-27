@@ -1,0 +1,61 @@
+/* DIV based monitor record review UI (Verisys & ExclusionCheck use tables) */ 
+.searchresult_review .prop-wrapper .props {
+  margin: 10px;
+  display: table;
+  border-collapse: collapse;
+}
+
+.searchresult_review .prop-wrapper .prop {
+  display: table-row;
+}
+
+.searchresult_review .prop-wrapper .prop div {
+  border: 1px solid #ccc;
+  padding: 3px;
+  display: table-cell;
+}
+
+.searchresult_review .prop-wrapper .label {
+  background-color: #f5f5f5;
+  width: 18%;
+  vertical-align: middle;
+}
+
+.searchresult_review h2,
+.searchresult_review .title,
+.searchresult_review .notes caption {
+  margin: 15px 0 5px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/** Add the previous next button style */
+.right {
+  float: right;
+}
+
+.action.save {
+  display: inline-block;
+  float: left;
+}
+
+.action.previous {
+  display: inline-block;
+}
+
+.action.next {
+  display: inline-block;
+}
+
+.progress {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+
+.actions {
+  overflow: auto;
+}
