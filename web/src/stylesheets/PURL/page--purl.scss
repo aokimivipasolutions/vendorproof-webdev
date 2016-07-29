@@ -41,7 +41,7 @@ body {
   }
 }
 
-.box_wc {
+.box-wc {
   max-width: $max-width;
   margin:0 auto;
   padding:0 $page-padding;
@@ -57,7 +57,7 @@ body {
   padding-top: $header-padding;
   height: $header-height;
 
-  .box_wc {
+  .box-wc {
     position: relative;
   }
 
@@ -92,7 +92,7 @@ body {
   background-color: $color-dark-grey;
   background-size: cover;
 
-  .box_wc .box_wc {
+  .box-wc .box-wc {
     background-color: transparentize($color-dark-grey, 0.2);
     padding: 30px;
     border-radius: 24px;
@@ -166,13 +166,13 @@ body {
     background: url('/resources/dyn/files/1904829z5520a2c/_fn/purl-background.jpg') top center no-repeat;
     background-size: cover;
 
-    .box_wc .box_wc span.signup {
+    .box-wc .box-wc span.signup {
       text-align: left;
     }
   }
 
   @include breakpoint($bp-tablets-landscape){
-    .box_wc .box_wc {
+    .box-wc .box-wc {
       max-width: $column-width;
       margin-left: $max-width - $column-width;
       padding-bottom: 48px;

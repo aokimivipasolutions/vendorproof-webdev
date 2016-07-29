@@ -36,8 +36,7 @@
   width: 5%;
 }
 
-.vendor.dashboard .actions.top .miwt_button,
-.vendor.dashboard .actions.top  .miwt_button.continue_button button {
+.vendor.dashboard .actions.top .btn {
   background-color: transparent;
   background-image: none;
   border: none; 
@@ -53,29 +52,35 @@
   vertical-align: bottom;
 }
   
-.vendor.dashboard .search_bar .actions {
+.vendor.dashboard .search_bar .actions,
+.vendor.dashboard .search-bar .actions
+{
   display: none;
 }
 
 /* removing padding from search bar for vendor dashboard - temporary if search parameters are eventually used */
-.vendor.dashboard .search_bar {
+.vendor.dashboard .search_bar,
+.vendor.dashboard .search-bar
+{
   padding: 0;
   margin: 0;
 }
 
-.vendor.dashboard .search_wrapper .actions {
+.vendor.dashboard .search_wrapper .actions,
+.vendor.dashboard .search-wrapper .actions
+{
   padding: 0; 
   margin: 10px 0 0 0;
 }
 
-.vendor.dashboard .miwt_table, 
-.vendor.dashboard .miwt_table th, 
-.vendor.dashboard .miwt_table td {
+.vendor.dashboard .miwt-table,
+.vendor.dashboard .miwt-table th,
+.vendor.dashboard .miwt-table td {
   color: #555;
   font-size: 12px;
 }
 
-.vendor.dashboard .miwt_table th a {
+.vendor.dashboard .miwt-table th a {
   color: #555;
   font-weight: bold;
   text-transform: none;

@@ -4,7 +4,7 @@
 	text-align: center;
 }
 
-#body_wc_0 {
+#body-wc-0 {
 	@include breakpoint($bp-tablets-portrait) {
 		max-width: 460px;
 	}

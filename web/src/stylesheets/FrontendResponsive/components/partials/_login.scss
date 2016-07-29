@@ -1,5 +1,5 @@
 
-.login  {
+.login {
 	.message-container {
 		margin-top: 0;
 	}
@@ -11,14 +11,14 @@
 		}
 	}
 
-	p.title {
+	.title {
 		@include style-h1;
 		margin-top: 0;
 	}
 
-	.username_con,
-	.password_con,
-	.password_verification_con {
+	.username,
+	.password,
+	.password-verification {
 		position: relative;
 		margin: 0 0 10px;
 
@@ -27,22 +27,15 @@
 		}
 	}
 
-	div.password {
-		position: absolute;
-		padding: 8px;
-		left: 0;
-		top: 0;
-	}
-
 	label {
 		display: none;
 	}
 
-	.actions_con {
+	.actions {
 		text-align: center;
 	}
 
-	.retrieve_password_link {
+	.retrieve-password {
 		margin-top: 25px;
 		text-align: center;
 
@@ -56,7 +49,7 @@
 	}
 
 	.password-reset {
-		.username_con {
+		.username {
 			span.value {
 				display: block;
 				padding: 5px 0;

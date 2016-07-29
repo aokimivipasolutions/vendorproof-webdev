@@ -1,9 +1,10 @@
 /** Workspace Styles. */
-.workspace div.workspace_actions{
+.workspace div.workspace-actions{
  float:left;
  position: relative;
  top: 4px;
 }
+.workspace button.show-hide-btn,
 .workspace button.show_hide_btn{
  border:none;
  -moz-border-radius:0;
@@ -16,21 +17,21 @@
  width: 50px;
  padding:0;
 }
-div.workspace_search,
-.task_container div.task{
+div.workspace-search,
+.task-container div.task{
  -moz-border-radius: 8px;
  border-radius: 8px;
  background-color: #fff;
  border: 1px solid #B9B196;
  padding: 1em;
 }
-.task_container div.task.tab-container,
-div.workspace_ts {
+.task-container div.task.tab-container,
+div.workspace-ts {
  background-color:transparent;
  border:none;
  padding:0;
 }
-.workspace_ts div.tasks{
+.workspace-ts div.tasks{
  margin-top:1em;
 }
 .workspace div.uitask{
@@ -38,16 +39,16 @@ div.workspace_ts {
  border-radius: 5px;
  background: #fff;
 }
-div.uitask_manager{
+div.uitask-manager{
  float:left;
 }
-.uitask_info label{
+.uitask-info label{
  font-weight: bold;  
  width: 8em;
  float: left;
  clear: left;
 }
-div.uitask_info{
+div.uitask-info{
  line-height: 1.25em;
  padding: 5px;
  position: absolute;
@@ -59,23 +60,23 @@ div.uitask_info{
  border-radius: 5px;
  border: 1px solid #B9B196;
 }
-#ie6only div.uitask_info,
-#ie7only div.uitask_info{
+#ie6only div.uitask-info,
+#ie7only div.uitask-info{
  margin-left: -2em;
  margin-top: 1.5em;
  width: 35em;
 }
-.uitask_info a.close:before{
+.uitask-info a.close:before{
   content: '['; }
-.uitask_info a.close:after{
+.uitask-info a.close:after{
   content: ']';
 }
-.uitask_info a.close{
+.uitask-info a.close{
  float: right;
  padding: .5em .5em .5em 29px;
  background: url(/theme/Actions/24/cancel.png) no-repeat;
 }
-div.uitask_manager_con{
+div.uitask-manager-con{
  padding: .5em .25em;
  margin: .25em;
  border-radius: 10px;
@@ -88,11 +89,11 @@ div.task_count_0{
  background-color:inherit; /*no worky ie*/
  padding:0;
 }
-div.sub_uitask_list{
+div.sub-uitask-list{
  float:right;
  font-size:.9em;
 }
-.sub_uitask_list div.sub_uitask_list{
+.sub-uitask-list div.sub-uitask-list{
  font-size:.9em;
 }
 div.uitask{
@@ -101,12 +102,12 @@ div.uitask{
  margin: 0 5px 0 2px;
  padding: 2px 4px;
 }
-.sub_uitask_list div.uitask{
+.sub-uitask-list div.uitask{
  border:none;
  margin: 1px 3px 0 1px;
  padding: 0px 2px;
 }
-.sub_uitask_list .uitask.selected{
+.sub-uitask-list .uitask.selected{
  border:none;
  border-bottom:1px dotted #ccc;
  -moz-box-shadow:none;
@@ -126,42 +127,42 @@ div.uitask{
  -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.1);
  box-shadow:1px 1px 2px rgba(0,0,0,.1);
 }
-.uitask_type_con,
-a.uitask_label,
+.uitask-type-con,
+a.uitask-label,
 .uitask .actions{
  opacity: .7;
 }
-.selected > .uitask_type_con,
-.selected > a.uitask_label,
+.selected > .uitask-type-con,
+.selected > a.uitask-label,
 .selected > .actions{
  opacity: 1;
 }
 /* FOR MSIE because it is so broken that trying to set the opacity triggers a whole slew of bugs that would require hair pulling and 10KiB worth of CSS to deal with. */
-#ie7only .uitask_list .selected a,
-#ie6only .uitask_list .selected a {
+#ie7only .uitask-list .selected a,
+#ie6only .uitask-list .selected a {
   text-decoration: underline;
 }
 #ie7only div.uitask,
 #ie6only div.uitask{
   height:22px;
 }
-#ie7only div.sub_uitask_list,
-#ie7only .sub_uitask_list div.uitask,
-#ie6only div.sub_uitask_list,
-#ie6only .sub_uitask_list div.uitask
+#ie7only div.sub-uitask-list,
+#ie7only .sub-uitask-list div.uitask,
+#ie6only div.sub-uitask-list,
+#ie6only .sub-uitask-list div.uitask
 {
   float:none;
   display:inline;
 }
 /* end workaround */
-a.uitask_label{
+a.uitask-label{
  text-decoration: none;
  color: #002;
 }
-a.uitask_label:hover{
+a.uitask-label:hover{
  text-decoration: underline;
 }
-.uitask_actions button{
+.uitask-actions button{
  width: 16px;
  height: 16px;
  border: none;
@@ -173,7 +174,7 @@ a.uitask_label:hover{
  cursor: pointer;
  cursor: hand;
 }
-.sub_uitask_list .uitask_actions button{
+.sub-uitask-list .uitask-actions button{
 }
 .uitask button.info{
  background-image: url(/resources/all/docroot/cms/icons/x16/info_plus_hover.png);
@@ -189,23 +190,23 @@ a.uitask_label:hover{
  font-size: 0px;
  line-height: 0;
 }
-img.uitask_type{
+img.uitask-type{
  width: 22px;
  height: 22px;
 }
-.sub_uitask_list img.uitask_type{
+.sub-uitask-list img.uitask-type{
  width: 20px;
  height: 20px;
 }
-.sub_uitask_list .sub_uitask_list img.uitask_type{
+.sub-uitask-list .sub-uitask-list img.uitask-type{
  width: 18px;
  height: 18px;
 }
 .uitask button,
-img.uitask_type,
-a.uitask_label{
+img.uitask-type,
+a.uitask-label{
  vertical-align: middle;
 }
-span.uitask_type{
+span.uitask-type{
  display: none;
 }

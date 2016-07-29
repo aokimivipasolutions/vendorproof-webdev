@@ -21,12 +21,12 @@
 }
 
 /*hiding "view" button unless item is completed or canceled*/
-.workflow_items_tree .miwt_button.action_view {
+.workflow_items_tree .btn.action_view {
   visibility: hidden;
 }
 
-.workflow_items_tree tr.complete .miwt_button.action_view,
-.workflow_items_tree tr.canceled .miwt_button.action_view {
+.workflow_items_tree tr.complete .btn.action_view,
+.workflow_items_tree tr.canceled .btn.action_view {
   visibility: visible;
 }
 

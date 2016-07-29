@@ -26,9 +26,9 @@ body, html {
 	}
 }
 
-#header_wc_0,
-#nav_wc_0,
-#body_wc_0 {
+#header-wc-0,
+#nav-wc-0,
+#body-wc-0 {
 
 	@include breakpoint($bp-tablets-portrait) {
 		margin: 0 auto;
@@ -53,12 +53,12 @@ body, html {
 			font-family: $font-georgia;
 		}
 
-		span.logout_url {
+		span.logout-url {
 			text-align: right;
 			display: block;
 		}
 
-		a.logout_url {
+		a.logout-url {
 			display: inline-block;
 			background: left center transparent url(/resources/dyn/files/176595z41d160b0/_fn/logout.png) no-repeat;
 			padding-left: 25px;
@@ -69,7 +69,7 @@ body, html {
 	}
 }
 
-#header_wc_0 {
+#header-wc-0 {
 	*zoom: 1;
 	padding: 20px $spacing-horizontal-mobile;
 	@include clearfix;
@@ -113,7 +113,7 @@ body, html {
 	}
 }
 
-#body_wc_0 {
+#body-wc-0 {
 	padding: 40px $spacing-horizontal-mobile;
 	background: $color-white;
 	border-bottom: 1px solid $color-grey-aa;

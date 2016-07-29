@@ -1,6 +1,4 @@
 .btn,
-button.miwt_button,
-a.miwt_button,
 input[type=submit],
 button[type=submit] {
   display: inline-block;
@@ -42,35 +40,22 @@ button[type=submit] {
 }
 
 .btn:hover,
-button.miwt_button:hover,
-a.miwt_button:hover,
-button[type=submit]:hover,
 input[type=submit]:hover,
 .btn:focus,
-button.miwt_button:focus,
-a.miwt_button:focus,
-button[type=submit]:focus,
 input[type=submit]:focus,
 .btn:active,
-button.miwt_button:active,
-a.miwt_button:active,
 input[type=submit]:active,
 button[type=submit]:active,
-button.miwt_button_disabled,
-a.miwt_button_disabled {
+.disabled, [disabled] {
   color: #333333;
   background-color: #e6e6e6;
   *background-color: #d9d9d9;
 }
 
 .btn:hover,
-button.miwt_button:hover,
-a.miwt_button:hover,
 input[type=submit]:hover,
 button[type=submit]:hover,
 .btn:focus,
-button.miwt_button:focus,
-a.miwt_button:focus,
 input[type=submit]:focus,
 button[type=submit]:focus {
   color: #333333;
@@ -83,8 +68,6 @@ button[type=submit]:focus {
 }
 
 .btn:focus,
-button.miwt_button:focus,
-a.miwt_button:focus,
 input[type=submit]:focus,
 button[type=submit]:focus {
   outline: thin dotted #333;
@@ -93,8 +76,6 @@ button[type=submit]:focus {
 }
 
 .btn:active,
-button.miwt_button:active,
-a.miwt_button:active,
 input[type=submit]:active,
 button[type=submit]:active {
   background-image: none;
@@ -104,8 +85,7 @@ button[type=submit]:active {
           box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-button.miwt_button_disabled,
-a.miwt_button_disabled {
+.disabled, [disabled] {
   cursor: default;
   background-image: none;
   opacity: 0.65;
@@ -117,10 +97,7 @@ a.miwt_button_disabled {
 
 
 
-button.miwt_button.btn-primary,
-a.miwt_button.btn-primary,
-input[type=submit].btn-primary,
-button[type=submit].btn-primary {
+.btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #006dcc;
@@ -139,35 +116,16 @@ button[type=submit].btn-primary {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-button.miwt_button.btn-primary:hover,
-a.miwt_button.btn-primary:hover,
-input[type=submit].btn-primary:hover,
-button[type=submit].btn-primary:hover,
+.btn-primary:hover,
 .btn-primary:focus,
-button.miwt_button.btn-primary:focus,
-a.miwt_button.btn-primary:focus,
-input[type=submit].btn-primary:focus,
-button[type=submit].btn-primary:focus,
 .btn-primary:active,
-button.miwt_button.btn-primary:active,
-a.miwt_button.btn-primary:active,
-input[type=submit].btn-primary:active,
-button[type=submit].btn-primary:active,
 .btn-primary[disabled],
-button.miwt_button.btn-primary[disabled],
-a.miwt_button.btn-primary[disabled],
-input[type=submit].btn-primary[disabled],
-button[type=submit].btn-primary[disabled],
-button.miwt_button.btn-primary.miwt_button_disabled,
-a.miwt_button.btn-primary.miwt_button_disabled {
+.btn-primary.disabled {
   color: #ffffff;
   background-color: #0044cc;
   *background-color: #003bb3;
 }
 
-button.miwt_button.btn-primary:active,
-a.miwt_button.btn-primary:active,
-input[type=submit].btn-primary:active,
-button[type=submit].btn-primary:active {
+.btn-primary:active {
   background-color: #003399 \9;
 }

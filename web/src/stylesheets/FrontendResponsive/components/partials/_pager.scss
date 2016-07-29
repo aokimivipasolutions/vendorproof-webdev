@@ -2,26 +2,26 @@
 	width: 100%;
 }
 
-table.pager {
-	td.pager_pages {
+.pager {
+	.pager_pages {
 		text-align: center;
 		padding: 5px;
 	}
 
-	.miwt_table {
+	.miwt-table {
 		margin: 5px 0;
 	}
 }
 
-.pager_search_results {
+.pager-search-results {
 	.pager-top,
-	.pager_bottom {
+	.pager-bottom {
 		text-align: center;
 		margin: 15px 0;
 	}
 }
 
-.column_visibility button.miwt_button{
+.column-visibility button.miwt_button{
 	&:active {
 		background: transparent url(/resources/all/docroot/miwt/component/images/view.gif) no-repeat center;
 	}

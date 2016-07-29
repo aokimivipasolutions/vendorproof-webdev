@@ -2,13 +2,13 @@ div.page {
   min-width: 980px;
 }
 
-#header_wc_0,
-#body_wc_0 {
+#header-wc-0,
+#body-wc-0 {
   margin: 0 auto;
   width: 980px;
 }
 
-#header_wc_0 {
+#header-wc-0 {
   padding: 20px 0;
   text-align: center;
 }

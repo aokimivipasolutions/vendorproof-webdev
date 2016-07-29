@@ -8,7 +8,7 @@ html {
   background: url(/resources/dyn/files/206322zc78fed4/_fn/VendorProof-Implementation-Landing-Page_02.png) no-repeat center bottom #FEFEFE;
 }
 
-#body_wc_0 {
+#body-wc-0 {
   width: 880px;
 }
 
@@ -28,7 +28,7 @@ background: linear-gradient(to bottom,  #ededed 0%,#e5e5e5 28%,#cecece 50%,#9393
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#4f4f4f',GradientType=0 ); /* IE6-9 */
 }
 
-#header_wc_0 {
+#header-wc-0 {
  text-align: left;
  padding: 10px 0;
  position: relative;
@@ -46,19 +46,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', end
 }
 
 #vp_logo,
-#header_wc_0 .script {
+#header-wc-0 .script {
   display: inline-block;
   width: 50%;
   vertical-align: middle;
 }
 
-#header_wc_0 .script .client-logo img {
+#header-wc-0 .script .client-logo img {
   float: right;
   margin-right: 1em;
   max-height: 45px;
 }
 
-#header_wc_0 .script .client-logo:before {
+#header-wc-0 .script .client-logo:before {
   content: "in partnership with";
   font-size: 0.8em;
   color: #939393;
@@ -129,13 +129,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75c7d1', end
 }
 
 .client-content .info .actions,
-.signup button.miwt_button {
+.signup .btn {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
-.signup button.miwt_button {
+.signup .btn {
   display: block;
   background: #64bd0d;
   border: none;

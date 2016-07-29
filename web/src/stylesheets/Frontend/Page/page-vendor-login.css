@@ -1,26 +1,26 @@
-#body_wc_0 {
+#body-wc-0 {
   text-align: center;
   padding-top: 60px;
 }
 
-#login_con {
+.login .form-content {
   float: right;
   position: relative;
 }
 
-#login_con .message-container {
+.login .form-content .message-container {
   position: absolute;
   top: 100%;
   left: 0;
   margin-top: 19px;
 }
 
-#login_con .retrieve_password_link {
+.login .form-content .retrieve-password {
   position: absolute;
   left: 165px;
 }
 
-#login_con .retrieve_password_link a {
+.login .form-content .retrieve-password a {
   font-size: 12px;
 }
 

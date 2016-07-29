@@ -1,14 +1,14 @@
-div.uitask_manager_con {
+div.uitask-manager-con {
   margin: 0.5em 0 0;
   border-radius: 0;
   background-color: #f5f5f5;
 }
 
-.workspace_ts div.tasks {
+.workspace-ts div.tasks {
   margin-top: 0;
 }
 
-.task_container div.task {
+.task-container div.task {
   border: 1px solid #eaeaea;
   border-radius: 0;
   padding: 0;
@@ -20,23 +20,23 @@ div.uitask_manager_con {
   border-radius: 2px;
 }
 
-.task_container .task > .tab-container {
+.task-container .task > .tab-container {
   margin: 2em 0;
 }
 
-.task_container .task > .actions.bottom {
+.task-container .task > .actions.bottom {
   background: #f9f9f9;
   text-align: center;
   padding: 5px;
   border-top: 1px solid #bbb;
 }
 
-.task_container div.task.property_editor h2.heading {
+.task-container div.task.property_editor h2.heading {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.task_container div.task.property_editor .property_wrapper {
+.task-container div.task.property_editor .property_wrapper {
   padding: 20px;
 }
 

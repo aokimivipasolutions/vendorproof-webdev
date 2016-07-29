@@ -147,7 +147,7 @@
   line-height: 20px;
 }
 
-.search .column_visibility {
+.search .column-visibility {
   display: none;
 }
 
@@ -194,12 +194,12 @@
   display: block;
 }
 
-.vendorproof_property span.miwt_button {
+.vendorproof_property .btn {
   position: relative;
   top: -1px;
 }
 
-.vendorproof_property button.miwt_button {
+.vendorproof_property button.btn {
   padding: 3px 8px;
   font-size: 12px;
   line-height: 16px;
