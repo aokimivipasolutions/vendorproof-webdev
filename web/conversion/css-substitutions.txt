@@ -50,3 +50,4 @@ s/\.results_per_page/.results-per-page/g
 s/\.new_window/.new-window/g
 s/\.no_results/.no-results/g
 s/\.more_results/.more-results/g
+s/\.menu_item/.menu-item/g

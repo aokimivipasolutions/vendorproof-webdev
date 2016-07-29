@@ -6,17 +6,11 @@ scriptdir=$(cd "$(dirname "$0")"; pwd)
 
 # Check for modifications
 # for dir in $(find . -maxdepth 3 -name Stylesheets); do find $dir -mtime -1; done
-mountothersites="${1:-}"
-backendhost="${2:-}"
+styledir="${1:-}"
 edits="$scriptdir/css-substitutions.txt"
 
-if [[ ! -d $mountothersites ]]; then
-    echo "Usage: $(basename "$0") <other site dir> <backend site host name>"
-    exit 1
-fi
-
-if [[ -z $backendhost ]]; then
-    echo "Usage: $(basename "$0") <other site dir> <backend site host name>"
+if [[ ! -d $styledir ]]; then
+    echo "Usage: $(basename "$0") <stylesheet dir dir>"
     exit 1
 fi
 
@@ -26,7 +20,13 @@ if [[ ! -f $edits ]]; then
 fi
 
 IFS=$'\n'
-for file in $(find "$mountothersites"/*/Web/Stylesheets -iname '*.css' -not -path "*/$backendhost/Web/Stylesheets/*")
+for file in $(find "$styledir" -iname '*.css')
+do
+    echo "Processing $file"
+    sed -i -f "${edits}" "$file" || true
+done
+
+for file in $(find "$styledir" -iname '*.scss')
 do
     echo "Processing $file"
     sed -i -f "${edits}" "$file" || true
