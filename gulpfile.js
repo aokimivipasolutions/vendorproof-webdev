@@ -28,7 +28,7 @@ gulp.task('styles', function (callback) {
     runSequence('styles:clean', ['styles:build', 'styles:vendor'], callback);
 });
 gulp.task('styles:build', function() {
-    return gulp.src('./web/src/stylesheets/**/*.scss')
+    return gulp.src(['./web/src/stylesheets/**/*.scss', './web/src/stylesheets/**/*.css'])
         .pipe(clip())
         .pipe(sass({
             outputStyle: 'expanded'
