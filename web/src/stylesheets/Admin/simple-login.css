@@ -20,30 +20,30 @@
   display: none;
 }
 
-.password_reset{
+.password-reset{
     max-width: 550px;
 }
 
-.password_reset .password_rules {
+.password-reset .password_rules {
     margin-top: 0;
 }
 
-.password_reset .username_con,
-.password_reset .password_con {
+.password-reset .username,
+.password-reset .password {
     display: block;
 }
 
-.password_reset .password_con,
-.password_reset .password_verification_con {
+.password-reset .password,
+.password-reset .password-verification-con {
     margin: 10px 0;
 }
 
-.password_reset .label.password,
-.password_reset .label.username {
+.password-reset .label.password,
+.password-reset .label.username {
     float: left;
     width: 150px;
 }
 
-.password_reset input.set_password_button {
+.password-reset input.set_password_button {
     margin: 0;
 }

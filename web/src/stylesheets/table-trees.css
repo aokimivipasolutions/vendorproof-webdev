@@ -1,12 +1,12 @@
 /* MIWT Tables */
-.miwt_highlight {
+.miwt-table {
     border: 1px solid #dddddd;
     width: 100%;
     border-collapse: separate;
     margin: 20px 0;
 }
 
-.miwt_highlight th {
+.miwt-table th {
     background-color: #f0f0f0;
     border-top: 1px solid #fff;
     border-bottom: 3px solid #ddd;
@@ -17,47 +17,47 @@
     text-align: left;
 }
 
-.miwt_highlight th a {
+.miwt-table th a {
     color: #00bae9;
     text-decoration: none;
 }
 
-.miwt_highlight th.control {
+.miwt-table th.control {
     text-align: right;
     width: 1%;
     white-space: nowrap;
 }
 
-.miwt_highlight .action_column {
+.miwt-table .action_column {
     text-align: right;
 }
 
-.miwt_highlight tbody td {
+.miwt-table tbody td {
     padding: 5px;
     border-bottom: 1px dotted #ddd;
     background-color: #fff;
 }
 
-.miwt_highlight tbody .odd td {
+.miwt-table tbody .odd td {
   background-color: #F9F9F7;
 }
 
-.miwt_highlight tbody tr:hover td {
+.miwt-table tbody tr:hover td {
   background-color: #feffdd;
 }
 
-.miwt_highlight tbody td.action_column {
+.miwt-table tbody td.action_column {
     width: 1%;
     white-space: nowrap;
     text-align: right;
 }
 
-.miwt_highlight td .actions {
+.miwt-table td .actions {
     margin: 0;
     white-space: nowrap;
 }
 
-.miwt_highlight button.miwt_button, .miwt_highlight a.miwt_button {
+.miwt-table button.miwt_button, .miwt-table a.miwt_button {
     padding: 2px 10px;
     font-size: 11.9px;
     -webkit-border-radius: 3px;
@@ -70,62 +70,62 @@ table.phone_number_nanp {
   width: auto;
 }
 
-.miwt_highlight th.first_column{
+.miwt-table th.first-column{
   padding-left: 5px;
 }
-.miwt_highlight th.last_column{
+.miwt-table th.last-column{
   padding-right: 5px;
 }
 
-.miwt_highlight td.first_column{
+.miwt-table td.first-column{
   max-width: 230px;
 }
-.miwt_highlight td.last_column .row_actions span.miwt_button {
+.miwt-table td.last-column .row_actions span.miwt_button {
   white-space: nowrap;
 }
 
-.miwt_highlight td.action_column{
+.miwt-table td.action_column{
   padding: 3px 5px;
   white-space:nowrap;
   width:1%;
   text-align:right;
 }
-.miwt_highlight th a.miwt_submit{
+.miwt-table th a[data-features~="submit"]{
   color: white;
   text-decoration:none;
   font-weight:bold;
 }
-.miwt_highlight th a.miwt_submit:hover {
+.miwt-table th a[data-features~="submit"]:hover {
   text-decoration: underline;
 }
 /* MIWT Trees. */
-.miwt_tree .parent_sibling_following img.tpi,
-.miwt_tree .last_sibling img.tpi,
-.miwt_tree .sibling_following img.tpi{
+.miwt-tree .parent_sibling_following img.tpi,
+.miwt-tree .last_sibling img.tpi,
+.miwt-tree .sibling_following img.tpi{
   width:14px;
 }
 
-.miwt_tree .last_sibling,
-.miwt_tree td.sibling_following{
+.miwt-tree .last_sibling,
+.miwt-tree td.sibling_following{
   width:16px;
 }
-#ie7only .miwt_tree .last_sibling,
-#ie7only .miwt_tree td.sibling_following{
+#ie7only .miwt-tree .last_sibling,
+#ie7only .miwt-tree td.sibling_following{
   width:1%;
   min-width:16px;
   max-width:16px;
 }
-.miwt_tree td.parent_last_sibling {
+.miwt-tree td.parent_last_sibling {
   background: transparent;
   padding:0;
 }
-.miwt_highlight th.control {
+.miwt-table th.control {
   padding: 0 5px;
 }
-.miwt_highlight div.column_visibility{
+.miwt-table div.column_visibility{
   padding-left:0;
 }
-#ie6only .miwt_highlight div.column_visibility{
+#ie6only .miwt-table div.column_visibility{
   position: static;
 }
 #column1 .column_visibility_selector li {
@@ -142,7 +142,7 @@ td.pager_pages{
   font-size: .9em;
   text-align: center;
 }
-td.pager_top{
+td.pager-top{
   display: none;
 }
 
@@ -152,10 +152,10 @@ table th {
 }
 
 /* fixing overflow problem caused by table nesting */ 
-table.miwt_highlight td table {
+table.miwt-table td table {
   max-width: 220px; 
 }
-table.miwt_highlight td table td {
+table.miwt-table td table td {
   max-width: 175px;
   word-wrap: break-word;
 } 
@@ -194,11 +194,11 @@ table.credit_card_info table.expires td {
 }
 
 /*collapsable */ 
-table.miwt_highlight td .miwt_collapsable_shown table {
+table.miwt-table td .miwt-collapsable.shown table {
   max-width: 300px;
 }
 
-table.miwt_highlight td .miwt_collapsable_shown table td {
+table.miwt-table td .miwt-collapsable.shown table td {
   word-wrap: normal;
   white-space: nowrap;
   max-width: 250px;

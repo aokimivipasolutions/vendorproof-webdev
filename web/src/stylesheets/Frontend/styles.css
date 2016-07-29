@@ -368,7 +368,7 @@ table.pager .miwt_table {
   background: #fff;
 }
 
-.truncating_renderer .miwt_collapsable_content {
+.truncating_renderer .miwt-collapsable-content {
   border: 3px solid #23596a;
   -webkit-box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
   -moz-box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
@@ -438,7 +438,7 @@ table.pager .miwt_table {
   display: none;
 }
 
-.pager_search_results .pager_top,
+.pager_search_results .pager-top,
 .pager_search_results .pager_bottom {
   text-align: center;
   margin: 15px 0;
@@ -461,11 +461,11 @@ table.pager .miwt_table {
 }
 
 
-.message_container {
+.message-container {
   margin: 15px 0;
 }
 
-.message_container .message {
+.message-container .message {
   text-align: center;
   color: #D74300;
   font-weight: bold;
@@ -474,11 +474,11 @@ table.pager .miwt_table {
   padding: 10px 15px;
 }
 
-.message_container .message + .message {
+.message-container .message + .message {
   margin-top: 3px;
 }
 
-.message_container .message.error {
+.message-container .message.error {
   background-color: #FFD9DA;
   border-color: #FFABAD;
   color: #9E0013;

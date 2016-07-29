@@ -24,7 +24,7 @@
 .search_wrapper button,
 .search_wrapper  input[type="submit"],
 .search_wrapper input[type="reset"],
-.search_wrapper .constraints a.miwt_submit {
+.search_wrapper .constraints a[data-features~="submit"] {
   font-family: Arial, Verdana, sans-serif;
   font-size: 12px;
   text-transform: uppercase;
