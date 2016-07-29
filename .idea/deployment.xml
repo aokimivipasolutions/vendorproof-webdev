@@ -5,11 +5,11 @@
       <paths name="VP Web Dev WebDAV">
         <serverdata>
           <mappings>
-            <mapping deploy="Design" local="$PROJECT_DIR$/build/design" web="/Design" />
-            <mapping deploy="Javascript" local="$PROJECT_DIR$/build/javascript" web="/Javascript" />
-            <mapping deploy="Stylesheets" local="$PROJECT_DIR$/build/stylesheets" web="/Stylesheets" />
-            <mapping deploy="Sourcemaps" local="$PROJECT_DIR$/build/sourcemaps" web="/Sourcemaps" />
-            <mapping deploy="FavIcons" local="$PROJECT_DIR$/build/favicons" web="/FavIcons" />
+            <mapping deploy="/Design" local="$PROJECT_DIR$/build/design" web="/Design" />
+            <mapping deploy="/FavIcons" local="$PROJECT_DIR$/build/favicons" web="/FavIcons" />
+            <mapping deploy="/Javascript" local="$PROJECT_DIR$/build/javascript" web="/Javascript" />
+            <mapping deploy="/Sourcemaps" local="$PROJECT_DIR$/build/sourcemaps" web="/Sourcemaps" />
+            <mapping deploy="/Stylesheets" local="$PROJECT_DIR$/build/stylesheets" web="/Stylesheets" />
           </mappings>
         </serverdata>
       </paths>

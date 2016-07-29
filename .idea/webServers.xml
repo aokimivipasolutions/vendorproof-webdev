@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="cdaadf37-f77f-4a75-96d7-d879177cb332" name="VP Web Dev WebDAV" url="http://russ1-vdm.vipasuite.com/_files/Other Sites/app.vendorproof.com/Web">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/mounts/vp-dev/app.vendorproof.com/Web" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/mounts/vp-dev/app.russ1-vdm.vipasuite.com/Web" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
