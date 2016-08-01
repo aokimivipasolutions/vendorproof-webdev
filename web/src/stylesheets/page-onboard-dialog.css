@@ -1,0 +1,128 @@
+.miwt .dialog {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.miwt .window.dialog {
+border: 1px solid #aaa;
+    -moz-border-radius: 10px;
+        border-radius: 10px;
+  width: 50% !important;
+  /* fixing the width via styles. rather against my better judgement, but we don't seem to have a good option to do this at present */ 
+}
+
+.miwt .dialog .titlebar {
+  background-color: transparent;
+}
+
+.miwt .dialog td.titlebar,
+.miwt .dialog td.windowbuttons {
+  background: #478bbc; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ3OGJiYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iIzNmN2RhYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOTZmOTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #478bbc 0%, #3f7daa 49%, #396f96 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#478bbc), color-stop(49%,#3f7daa), color-stop(100%,#396f96)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #478bbc 0%,#3f7daa 49%,#396f96 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #478bbc 0%,#3f7daa 49%,#396f96 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #478bbc 0%,#3f7daa 49%,#396f96 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #478bbc 0%,#3f7daa 49%,#396f96 100%); /* W3C */
+  font-weight: normal;
+}
+
+.ieonly .miwt .dialog td.titlebar,
+.ieonly .miwt .dialog td.windowbuttons {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#478bbc', endColorstr='#396f96',GradientType=0 ); /* IE6-8 */ 
+}
+
+.miwt .dialog td.titlebar {
+  border-radius: 10px 0 0 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+
+.miwt .dialog td.windowbuttons {
+  border-radius: 0 10px 0 0;
+}
+
+.miwt .dialog .windowcontent {
+    background-color: #fff;
+    padding: 0; 
+}
+
+.miwt .dialog .windowcontent .dialog {
+  padding: 10px;
+}
+
+.complete_dialog .property_editor .prop {
+  padding: 5px 0;
+}
+
+.dialog .property_editor .prop .label {
+    display: block;
+    font-weight: bold;
+}
+
+.dialog .property_editor .prop .help_point {
+    display: none;
+}
+
+.ariba_checkbox label.val.tbl {
+    width: 450px;
+    vertical-align: top;
+}
+
+/* styles for approval stuff */ 
+.approval_item_dialog .approve_actions span,
+.payment-tier-approval-item_dialog .approve_actions span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.approval_item_dialog div,
+.payment-tier-approval-item_dialog div {
+  margin-bottom: 10px;
+}
+
+.approval_item_dialog label,
+.payment-tier-approval-item_dialog label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+/* fdq upload approval */ 
+.fdq-upload-review span.title {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+}
+
+/* client info review */ 
+.dialog .client-specific-form-item .form_field > .extra_value_renderer {
+    font-style: italic;
+}
+
+.dialog .client-specific-form-item .form_field {
+    margin-bottom: 10px;
+}
+
+.dialog .client-specific-form-item .form_field > .label, 
+.dialog .client-specific-form-item .form_field > .extra_value_renderer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dialog .client-specific-form-item .extra_value_renderer {
+    margin-left: 10px;
+}
+
+/* fix action buttons for within dialogs */ 
+.property_wrapper > div > .actions.bottom {
+    text-align: center;
+    margin: 20px 0;
+}

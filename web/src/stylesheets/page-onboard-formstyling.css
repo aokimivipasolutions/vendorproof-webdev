@@ -1,0 +1,262 @@
+.items-tree-close
+{
+    float: right;
+}
+
+.fdq-item .form_content{
+    margin: 20px auto 10px;
+    max-width: 800px;
+}
+
+.question .choice_con{
+    display: block;
+    padding: 5px;
+}
+
+.center-field .button_description_container{
+    padding: 3px;
+}
+
+.center-field{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.center-field .fdq_signature{
+    margin: 50px auto 0;
+}
+
+.center-field .ctb, .signature {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.center-field table{
+    margin: 0 auto;
+}
+
+.center-field .label{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.exclusion-field{
+    text-align: center;
+}
+
+.exclusion-field .label{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.text-area-field .label{
+    display: block;
+    width: 100%;
+}
+
+.text-area-field textarea{
+    width: 100%;
+}
+
+/* ensure that the submit button for the fdq form is visible*/ 
+.fdq-item .form_content .submit_button {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* place signature line items side-by-side with spacing */ 
+.fdq-item .form_content .signature {
+  display: block;
+}
+
+.fdq-item .form_content .signature .name {
+  margin-right: 10px;
+}
+
+/* form styles */
+.rtb {
+  display: block;
+}
+
+.rtb input, 
+.rtb label,
+.ctb input, 
+.ctb label {
+  display: inline-block;
+  vertical-align: center;
+}
+
+input[type=password],
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 4px;
+  border: 1px solid #d9d9d9;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 13px;
+  
+  -webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+  box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+  
+  outline: none;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+  
+  background: rgb(247,247,247); /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYWZhZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(250,250,250,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(250,250,250,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(250,250,250,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(250,250,250,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(250,250,250,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(250,250,250,1) 100%); /* W3C */
+}
+
+.ieonly input[type=password],
+.ieonly input[type=text],
+.ieonly input[type=email],
+.ieonly input[type=tel],
+.ieonly textarea {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#fafafa',GradientType=0 ); /* IE6-8 */
+}
+
+input[disabled] {
+  color: #999; 
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+  height: 100px;
+  display: block;
+}
+
+input[type=password]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+textarea:focus {
+  border: 1px solid #2896d3;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px rgba(32,175,207,0.5);
+  -moz-box-shadow: 0 0 3px rgba(32,175,207,0.5);
+  box-shadow: 0 0 3px rgba(32,175,207,0.5);
+}
+
+select {
+  margin: 0;
+  padding: 3px;
+  border: 1px solid #d9d9d9;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+  box-shadow: 1px 1px 1px rgba(255,255,255,0.5),
+      0 0 2px rgba(0,0,0,0.1) inset;
+
+  outline: none;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+select:focus {
+  border: 1px solid #20AFCF;
+}
+
+.miwt_calendar_clear {
+  display: none;
+}
+
+button.ui-datepicker-trigger {
+  vertical-align: middle;
+}
+
+#ie7only button.ui-datepicker-trigger {
+  vertical-align: top; 
+}
+
+button.ui-datepicker-trigger img {
+  display: block;
+  height: 15px;
+}
+
+.user_entry_required > label,
+.user_entry_required > .label {
+  padding-left: 10px;
+  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
+}
+
+/* address styles for property editor dialog */ 
+.property_editor .address_form label {
+    display: none;
+}
+
+.property_editor .address_form .city_container, 
+.property_editor .address_form .region_container, 
+.property_editor .address_form .postal_code_container {
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: top; 
+}
+
+.property_editor .address_form .city_container:after {
+    content:",";
+}
+
+.download-forms-container .miwt_submit {
+    margin-top: 10px;
+}
+
+.business-info-review .prop, .client-specific-info-review .form_field {
+    border: 1px solid #ddd;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #fdfdfd;
+}
+
+.business-info-review .label, .client-specific-info-review .extra_value_name {
+    background-color: #eee;
+    padding: 7px;
+    display: block;
+    font-weight: bold;
+}
+
+.business-info-review .val, .client-specific-info-review .extra_value_renderer {
+    padding: 7px;
+    display: block;
+}
+
+.client-specific-info-review p {
+    padding: 5px;
+    margin: 0;
+}
+
+.client-specific-info-review .hidden_field {
+    border: none;
+}
+
+.payment-tier-combo label {
+    margin-right: 10px;
+}
