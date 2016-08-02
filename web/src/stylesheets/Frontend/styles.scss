@@ -80,7 +80,7 @@ div.page {
 
 #header .logout a.logout-url {
   display: inline-block;
-  background: left center transparent url(/resources/dyn/files/176595z41d160b0/_fn/logout.png) no-repeat;
+  background: left center transparent url(/_resources/dyn/files/176595z41d160b0/_fn/logout.png) no-repeat;
   padding-left: 25px;
   line-height: 20px;
   color: #413388;
@@ -256,7 +256,7 @@ ul.tab-items li:hover {
 ul.tab-items li.tab-selected {
   margin-bottom: -1px;
   border-bottom: 1px #fff solid;
-  background: white url("/resources/all/docroot/cms/icons/tab-gray-grad-bg-a.gif") repeat-x left top;
+  background: white url("/_resources/all/docroot/cms/icons/tab-gray-grad-bg-a.gif") repeat-x left top;
 }
 
 ul.tab-items li a {
@@ -431,7 +431,7 @@ ul.tab-items li.tab-selected a {
 }
 
 .column-visibility .btn:active {
-  background: transparent url(/resources/all/docroot/miwt/component/images/view.gif) no-repeat center;
+  background: transparent url(/_resources/all/docroot/miwt/component/images/view.gif) no-repeat center;
 }
 
 .column-visibility .btn:hover {
@@ -589,7 +589,7 @@ ul.tab-items li.tab-selected a {
 .genform .user-entry-required > label,
 .genform .user_entry_required > .label {
   padding-left: 10px;
-  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
 }
 
 .property_wrapper .user_entry_required > label,
@@ -597,7 +597,7 @@ ul.tab-items li.tab-selected a {
 .property_wrapper .user_entry_required > .label {
   padding-right: 10px;
   padding-left: 0;
-  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat 211px 9px;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat 211px 9px;
 }
 
 .property_wrapper .subprop.user_entry_required > label,
@@ -605,11 +605,11 @@ ul.tab-items li.tab-selected a {
 .property_wrapper .subprop.user_entry_required > .label {
   padding-right: 10px;
   padding-left: 0;
-  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right 0;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right 0;
 }
 
 .miwt-calendar .open {
- background: transparent url(/resources/dyn/files/1246520z4118bf53/_fn/icon-calendar.png) no-repeat scroll center top;
+ background: transparent url(/_resources/dyn/files/1246520z4118bf53/_fn/icon-calendar.png) no-repeat scroll center top;
  height: 24px;
  width: 24px;
  margin: 0;

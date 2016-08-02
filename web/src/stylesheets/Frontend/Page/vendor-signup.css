@@ -110,7 +110,7 @@
 .business_information .user_entry_required > label {
   padding-right: 10px;
   padding-left: 0;
-  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right top;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right top;
 }
 
 .business_information .business_name input,
@@ -394,7 +394,7 @@ table.payment_details,
   text-align: left;
   padding: 10px 0 10px 40px;
   margin: 20px -20px -20px;
-  background: 0 center #fff url(/resources/dyn/files/1685844z54234f66/_fn/shield.png) no-repeat;
+  background: 0 center #fff url(/_resources/dyn/files/1685844z54234f66/_fn/shield.png) no-repeat;
 }
 
 .braintree-info p {

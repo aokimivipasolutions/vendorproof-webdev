@@ -45,7 +45,7 @@
 
 button.action_configure {
   text-indent: -9999em;
-  background: transparent url(/resources/all/docroot/miwt/component/images/cog-16x16.png) no-repeat center center;
+  background: transparent url(/_resources/all/docroot/miwt/component/images/cog-16x16.png) no-repeat center center;
   padding: 2px 10px;
   border: none;
   opacity: 0.5;

@@ -205,7 +205,7 @@ button.ui-datepicker-trigger img {
 .user_entry_required > label,
 .user_entry_required > .label {
   padding-left: 10px;
-  background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
 }
 
 /* address styles for property editor dialog */ 

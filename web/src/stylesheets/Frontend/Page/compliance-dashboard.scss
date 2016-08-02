@@ -70,7 +70,7 @@ $bottom-row-box-inner-height: 240px;
 
 .report .delayed-content.loading,
 .loading .graph {
-  background: center center transparent url(/resources/dyn/files/1904773z93ac504a/_fn/ajax-loader.gif) no-repeat;
+  background: center center transparent url(/theme/Overall/ajax-loader.gif) no-repeat;
 }
 
 .report .workspace {
@@ -91,15 +91,15 @@ $bottom-row-box-inner-height: 240px;
 
 .report .stat {
   &.people .icon {
-    background-image: url(/resources/dyn/files/1904612zb333ad6d/_fn/community.png);
+    background-image: url(/theme/Overall/icons/community.png);
   }
 
   &.documents .icon {
-    background-image: url(/resources/dyn/files/1904611z2a3afcd7/_fn/blue-folder.png);
+    background-image: url(/theme/Overall/icons/blue-folder.png);
   }
 
   &.pie .icon {
-    background-image: url(/resources/dyn/files/1904613zc4349dfb/_fn/pie-chart.png);
+    background-image: url(/theme/Overall/icons/pie-chart.png);
   }
 }
 

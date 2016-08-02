@@ -177,10 +177,10 @@ a.uitask-label:hover{
 .sub-uitask-list .uitask-actions button{
 }
 .uitask button.info{
- background-image: url(/resources/all/docroot/cms/icons/x16/info_plus_hover.png);
+ background-image: url(/_resources/all/docroot/cms/icons/x16/info_plus_hover.png);
 }
 .uitask button.close{
- background-image: url(/resources/all/docroot/cms/icons/x16/close_plus_hover.png);
+ background-image: url(/_resources/all/docroot/cms/icons/x16/close_plus_hover.png);
 }
 .uitask button:hover{
  background-position: left bottom;
