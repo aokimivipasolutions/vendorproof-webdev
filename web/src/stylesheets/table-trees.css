@@ -139,16 +139,6 @@ table.phone_number_nanp {
   padding: 10px;
 }
 
-/* MIWT Table Pager*/
-td.pager_pages,
-.pager .controls {
-  font-size: .9em;
-  text-align: center;
-}
-.pager-top{
-  display: none;
-}
-
 /* making sure the column headers don't wrap */ 
 table th {
   white-space: nowrap;

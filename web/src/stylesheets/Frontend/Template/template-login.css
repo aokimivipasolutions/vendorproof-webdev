@@ -3,7 +3,7 @@
   padding: 0 20px;
 }
 
-.login_con  {
+.login .form-content {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -17,17 +17,17 @@
   margin-top: 0;
 }
 
-.column .login .username_con,
-.column .login .password_con {
+.column .login .username,
+.column .login .password {
   margin: 0 0 10px;
 }
 
-.column .login .username_con input,
-.column .login .password_con input {
+.column .login .username input,
+.column .login .password input {
   width: 250px;
 }
 
-.column .login .actions_con .reset_password {
+.column .login .actions_con .reset-password {
   float: right;
   font-size: 12px;
   margin-top: 8px;

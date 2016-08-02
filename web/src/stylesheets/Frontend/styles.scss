@@ -1,3 +1,5 @@
+@import "../config/base-import";
+
 body, html {
   background-color: #dcdcdc;
   font-family: arial, helvetica, sans-serif;
@@ -176,7 +178,7 @@ div.page {
 }
 
 #nav .menuitemlabel:hover,
-#nav .mi_active .menuitemlabel {
+#nav .mi-active .menuitemlabel {
   background: #1f1f1f; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFmMWYxZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMlIiBzdG9wLWNvbG9yPSIjMmEyYTJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNiUiIHN0b3AtY29sb3I9IiMzOTM5MzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMCUiIHN0b3AtY29sb3I9IiM0NTQ1NDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMyUiIHN0b3AtY29sb3I9IiM0OTQ5NDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiM1ODU4NTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NCUiIHN0b3AtY29sb3I9IiM1ZDVkNWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNjM2MzYyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
@@ -189,7 +191,7 @@ div.page {
 }
 
 .ieonly #nav .menuitemlabel:hover,
-.ieonly #nav .mi_active .menuitemlabel {
+.ieonly #nav .mi-active .menuitemlabel {
   background: none;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#636362',GradientType=0 ); /* IE6-8 */
 }
@@ -216,8 +218,6 @@ h3 {
   font-weight: normal;
   color: #23596a;
 }
-
-
 
 div.tab-content {
   border-top: 1px #ddd solid;
@@ -270,10 +270,6 @@ ul.tab-items li a {
 ul.tab-items li.tab-selected a {
   color: #330000;
   border-top-color: #ffd75d;
-}
-
-.pager {
-  width: 100%;  
 }
 
 .miwt-table {
@@ -344,15 +340,6 @@ ul.tab-items li.tab-selected a {
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
-}
-
-.pager td.pager_pages {
-  text-align: center;
-  padding: 5px;
-}
-
-.pager .miwt-table {
-  margin: 5px 0;
 }
 
 .truncating_renderer tbody td {
@@ -441,12 +428,6 @@ ul.tab-items li.tab-selected a {
 
 .no_search .search_bar {
   display: none;
-}
-
-.pager-search-results .pager-top,
-.pager-search-results .pager-bottom {
-  text-align: center;
-  margin: 15px 0;
 }
 
 .column-visibility .btn:active {
@@ -587,7 +568,7 @@ ul.tab-items li.tab-selected a {
   border: 1px solid #20AFCF;
 }
 
-.genform .miwt_calendar_clear {
+.genform .miwt-calendar .clear {
   display: none;
 }
 
@@ -605,12 +586,14 @@ ul.tab-items li.tab-selected a {
 }
 
 .genform .user_entry_required > label,
+.genform .user-entry-required > label,
 .genform .user_entry_required > .label {
   padding-left: 10px;
   background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left top;
 }
 
 .property_wrapper .user_entry_required > label,
+.property_wrapper .user-entry-required > label,
 .property_wrapper .user_entry_required > .label {
   padding-right: 10px;
   padding-left: 0;
@@ -618,13 +601,14 @@ ul.tab-items li.tab-selected a {
 }
 
 .property_wrapper .subprop.user_entry_required > label,
+.property_wrapper .subprop.user-entry-required > label,
 .property_wrapper .subprop.user_entry_required > .label {
   padding-right: 10px;
   padding-left: 0;
   background: transparent url(/resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right 0;
 }
 
-button.miwt_calendar_open {
+.miwt-calendar .open {
  background: transparent url(/resources/dyn/files/1246520z4118bf53/_fn/icon-calendar.png) no-repeat scroll center top;
  height: 24px;
  width: 24px;
@@ -928,3 +912,10 @@ span.help_point .hp-tooltip .arrow {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
+
+
+.pager-bottom{
+	width: 100%;
+	text-align: center;
+}
+@import "../FrontendResponsive/components/partials/pager";

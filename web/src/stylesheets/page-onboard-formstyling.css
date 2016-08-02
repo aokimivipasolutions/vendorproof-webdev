@@ -185,7 +185,7 @@ select:focus {
   border: 1px solid #20AFCF;
 }
 
-.miwt_calendar_clear {
+.miwt-calendar .clear {
   display: none;
 }
 
