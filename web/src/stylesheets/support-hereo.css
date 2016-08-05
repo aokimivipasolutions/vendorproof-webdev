@@ -1,0 +1,11 @@
+#supporthero-button {
+	top: -3px !important;
+	bottom: auto !important;
+	padding: 8px 10px 10px !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#supporthero-button:hover {
+	padding: 16px 10px 10px !important;
+}
