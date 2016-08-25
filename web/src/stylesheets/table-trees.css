@@ -40,11 +40,11 @@
 }
 
 .miwt-table tbody .odd td {
-  background-color: #F9F9F7;
+    background-color: #F9F9F7;
 }
 
 .miwt-table tbody tr:hover td {
-  background-color: #feffdd;
+    background-color: #feffdd;
 }
 
 .miwt-table tbody td.action_column {
@@ -68,38 +68,38 @@
 
 .form_field table,
 table.phone_number_nanp {
-  width: auto;
+    width: auto;
 }
 
 .miwt-table th.first-column{
-  padding-left: 5px;
+    padding-left: 5px;
 }
 .miwt-table th.last-column{
-  padding-right: 5px;
+    padding-right: 5px;
 }
 
 .miwt-table td.first-column{
-  max-width: 230px;
+    max-width: 230px;
 }
 .miwt-table td.last-column .row_actions,
 .miwt-table td.last-column .actions {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .miwt-table td.action-column,
 .miwt-table td.action_column{
-  padding: 3px 5px;
-  white-space:nowrap;
-  width:1%;
-  text-align:right;
+    padding: 3px 5px;
+    white-space:nowrap;
+    width:1%;
+    text-align:right;
 }
 .miwt-table th a[data-features~="submit"]{
-  color: white;
-  text-decoration:none;
-  font-weight:bold;
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
 }
 .miwt-table th a[data-features~="submit"]:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .miwt-table th.control {
@@ -140,28 +140,28 @@ table.phone_number_nanp {
 .miwt-tree .parent_sibling_following img.tpi,
 .miwt-tree .last_sibling img.tpi,
 .miwt-tree .sibling_following img.tpi{
-  width:14px;
+    width:14px;
 }
 
 .miwt-tree .last_sibling,
 .miwt-tree td.sibling_following{
-  width:16px;
+    width:16px;
 }
 #ie7only .miwt-tree .last_sibling,
 #ie7only .miwt-tree td.sibling_following{
-  width:1%;
-  min-width:16px;
-  max-width:16px;
+    width:1%;
+    min-width:16px;
+    max-width:16px;
 }
 .miwt-tree td.parent_last_sibling {
-  background: transparent;
-  padding:0;
+    background: transparent;
+    padding:0;
 }
 .miwt-tree th.control {
-  padding: 0 5px;
-  text-align: right;
-  width: 1%;
-  white-space: nowrap;
+    padding: 0 5px;
+    text-align: right;
+    width: 1%;
+    white-space: nowrap;
 }
 
 .miwt-tree .action-column,
@@ -191,84 +191,84 @@ table.phone_number_nanp {
     background-color: #fff;
 }
 .miwt-tree div.column-visibility{
-  padding-left:0;
+    padding-left:0;
 }
 #ie6only .miwt-tree div.column-visibility{
-  position: static;
+    position: static;
 }
 #column1 .column-visibility-selector li {
-  list-style-type: none;
-  font-weight: normal;
+    list-style-type: none;
+    font-weight: normal;
 }
 #column1 .column-visibility-selector ul {
-  margin: 0;
-  padding: 10px;
+    margin: 0;
+    padding: 10px;
 }
 
 /* making sure the column headers don't wrap */
 
 table th {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 /* fixing overflow problem caused by table nesting */
 
 table.miwt-table td table,
 table.miwt-tree td table {
-  max-width: 220px; 
+    max-width: 220px;
 }
 table.miwt-table td table td,
 table.miwt-tree td table td {
-  max-width: 175px;
-  word-wrap: break-word;
+    max-width: 175px;
+    word-wrap: break-word;
 }
 
 /* position bulk actions to the right */
 
 table + div.actions {
-  text-align: right;
+    text-align: right;
 }
 .search table + div.layout_group.result_actions {
-  text-align: left;
+    text-align: left;
 }
 
-.miwt_form .actions label, 
+.miwt_form .actions label,
 .miwt_form .actions select {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 table.miwt-table td .actions button,
 table.miwt-tree td .actions button{
-  margin: 0;
+    margin: 0;
 }
 
 td .row_actions button {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
-/*payment tables */ 
+/*payment tables */
 
 table.check_info,
 table.credit_card_info {
-  width: auto;
+    width: auto;
 }
 
 table.credit_card_info table.expires td {
-  display: inline-block;
-  width: 120px;
+    display: inline-block;
+    width: 120px;
 }
 
 /*collapsable */
 
 table.miwt-table td .miwt-collapsable.shown table,
 table.miwt-tree td .miwt-collapsable.shown table{
-  max-width: 300px;
+    max-width: 300px;
 }
 
 table.miwt-table td .miwt-collapsable.shown table td,
 table.miwt-tree td .miwt-collapsable.shown table td {
-  word-wrap: normal;
-  white-space: nowrap;
-  max-width: 250px;
+    word-wrap: normal;
+    white-space: nowrap;
+    max-width: 250px;
 }
