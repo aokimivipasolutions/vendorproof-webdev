@@ -214,13 +214,15 @@ $bottom-row-box-inner-height: 240px;
     padding: 0;
   }
 
-  .basic .report.monitoring .monitorservices-matches.stat-box {
+  .basic .report.monitoring .monitorservices-matches.stat-box,
+  .basic .report.monitoring .monitorservices-red.stat-box {
     background: #bb011a;
     color: #fff;
   }
 
-  .basic .report.monitoring .monitorservices-suspected-matches.stat-box {
-    background: #ee8122;
+  .basic .report.monitoring .monitorservices-suspected-matches.stat-box,
+  .basic .report.monitoring .monitorservices-yellow.stat-box {
+    background: #c1bb17;
     color: #fff;
   }
 
