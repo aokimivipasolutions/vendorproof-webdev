@@ -146,6 +146,10 @@
 		width: 900px;
 		margin: 0 auto;
 
+		* {
+			box-sizing: initial;
+		}
+
 		h1 {
 			text-align: center;
 		}
@@ -305,10 +309,10 @@
 					display: none;
 				}
 
-				input,
-				.region_container {
+				input {
 					position: absolute;
 					top: 200px;
+					line-height: initial;
 				}
 
 				input.address_line_first {
