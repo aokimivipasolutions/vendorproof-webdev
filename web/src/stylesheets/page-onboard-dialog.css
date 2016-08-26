@@ -32,8 +32,8 @@ border: 1px solid #aaa;
   font-weight: normal;
 }
 
-.ieonly .miwt .dialog td.titlebar,
-.ieonly .miwt .dialog td.windowbuttons {
+.lt-ie9 .miwt .dialog td.titlebar,
+.lt-ie9 .miwt .dialog td.windowbuttons {
   background: none;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#478bbc', endColorstr='#396f96',GradientType=0 ); /* IE6-8 */ 
 }
