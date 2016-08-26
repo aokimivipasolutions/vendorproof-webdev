@@ -836,7 +836,7 @@ ul.tab-items li.tab-selected a {
 .status_attention:before { background-color: #dd2222; }
 
 
-span.help_point {
+span.help-point {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -857,11 +857,11 @@ span.help_point {
 }
 
 
-span.help_point {
+span.help-point {
   position: relative;
 }
 
-span.help_point .hp-tooltip {
+span.help-point .hp-tooltip {
   background: #333;
   padding: 15px 20px;
   color: #fff;
@@ -879,13 +879,13 @@ span.help_point .hp-tooltip {
   line-height: 1.4;
 }
 
-span.help_point .hp-tooltip.active {
+span.help-point .hp-tooltip.active {
   opacity: 1;
   margin-top: 0;
 }
 
 
-span.help_point .hp-tooltip .arrow {
+span.help-point .hp-tooltip .arrow {
   position: absolute;
   bottom: 100%;
   left: 0;

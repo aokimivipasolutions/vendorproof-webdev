@@ -2,7 +2,7 @@ jQuery(function($){
   var $con = $('.miwt_form');
   
   var updateHelpPoints = function updateHelpPoints() {
-    var $helpPoints = $con.find('span.help_point');
+    var $helpPoints = $con.find('span.help-point');
     
     $helpPoints.each(function(){
       var $helpPoint = $(this);
@@ -18,7 +18,7 @@ jQuery(function($){
     var $form = $(this);
     var tooltipTimer;
     
-    $form.on('mouseenter', 'span.help_point', function(evt){
+    $form.on('mouseenter', 'span.help-point', function(evt){
       var $tooltip = $('<div class="hp-tooltip" />')
           .text($(this).data('title'))
           .append('<span class="arrow" />')
@@ -29,7 +29,7 @@ jQuery(function($){
         $tooltip.addClass('active');
       }, 100);
     });
-    $form.on('mouseleave', 'span.help_point', function(evt){
+    $form.on('mouseleave', 'span.help-point', function(evt){
       $(this).find('.hp-tooltip').remove();
       clearTimeout(tooltipTimer);
     });
