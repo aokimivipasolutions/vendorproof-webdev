@@ -6,7 +6,7 @@ $(document).ready(function() {
   
   //VipaSuite uses form.miwt_form.
   //Proteus uses form.miwt-form.
-  $('form.miwt_form').each(function(idx, form) {
+  $('form.miwt-form').each(function(idx, form) {
     submitOptions = form.submit_options || {};
     previousPostUpdate = submitOptions.postUpdate;
     

@@ -232,8 +232,8 @@ table + div.actions {
     text-align: left;
 }
 
-.miwt_form .actions label,
-.miwt_form .actions select {
+.miwt-form .actions label,
+.miwt-form .actions select {
     display: inline-block;
     vertical-align: middle;
 }

@@ -1,5 +1,5 @@
 jQuery(function($){
-  var $con = $('.miwt_form');
+  var $con = $('.miwt-form');
   
   var updateHelpPoints = function updateHelpPoints() {
     var $helpPoints = $con.find('span.help-point');

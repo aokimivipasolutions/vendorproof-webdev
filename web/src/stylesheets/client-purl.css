@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', end
   right: 1.5em;
 }
 
-.miwt_form .error_txt {
+.miwt-form .error_txt {
   margin-top: 20px;
   background-color: #FFD9DA;
   border: 2px solid #FFABAD;

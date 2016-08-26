@@ -1,5 +1,5 @@
 jQuery(function($){
-  var $form = $('.miwt_form');
+  var $form = $('.miwt-form');
   
   
   var updateForm = function() {

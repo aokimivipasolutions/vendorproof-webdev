@@ -1,5 +1,5 @@
 jQuery(function($){
-	var $con = $('.miwt_form');
+	var $con = $('.miwt-form');
 	var $body = $('body');
 
 	var CSS_CLASS_SELECT_INIT = 'select2-init';
