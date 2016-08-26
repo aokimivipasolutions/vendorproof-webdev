@@ -18,17 +18,13 @@
 
 	.username,
 	.password,
-	.password-verification {
+	.verify-password {
 		position: relative;
 		margin: 0 0 10px;
 
 		input {
 			width: 100%;
 		}
-	}
-
-	label {
-		display: none;
 	}
 
 	.actions {
@@ -48,7 +44,7 @@
 		}
 	}
 
-	.password-reset {
+	&.password-reset {
 		.username {
 			span.value {
 				display: block;
