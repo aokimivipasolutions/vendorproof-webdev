@@ -144,7 +144,7 @@ body {
         font-size: 0.7em;
         content: "Credit Card Required";
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 0;
         vertical-align: middle;
         height: 26px;
         display: block;
@@ -198,5 +198,97 @@ body {
 
   p {
     margin: 1em 0;
+  }
+}
+
+.dialog {
+  width: 300px !important;
+  height: 220px;
+  left: 40%;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  background-color: rgba(50, 50, 50, 0.95) !important;
+  border: none !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+
+  .windowbuttons {
+    display: none;
+  }
+
+  .activewindowtitle {
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .windowcontent {
+    top: 40px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border-width: 1px 0 0 0;
+    padding: 12px;
+    text-align: center;
+
+    button {
+      color: #fff;
+      border: none;
+      font-family: "SourceSansProLight", "arial", "sans-serif";
+      font-size: 18px;
+      padding: 10px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+
+      &.submit {
+        background-color: #33cc33;
+        margin-right: 5px;
+        -webkit-transition: background-color 200ms;
+        transition: background-color 200ms;
+
+        &:hover {
+          background-color: #5cd65c;
+        }
+      }
+
+      &.cancel {
+        color: black;
+      }
+    }
+  }
+
+  .signup-id {
+    label {
+      display: none;
+    }
+
+    input.val {
+      font-family: "SourceSansProLight", "arial", "sans-serif";
+      display: block;
+      width: 70%;
+      height: 44px;
+      padding: 6px 12px;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 24px;
+      text-align: center;
+      color: #000;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      text-transform: uppercase;
+
+      &:focus {
+        border-color: #66afe9;
+        outline: 01;
+      }
+    }
   }
 }
