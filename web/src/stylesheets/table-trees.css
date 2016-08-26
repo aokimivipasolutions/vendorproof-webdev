@@ -137,23 +137,23 @@ table.phone_number_nanp {
     text-decoration: none;
 }
 
-.miwt-tree .parent_sibling_following img.tpi,
-.miwt-tree .last_sibling img.tpi,
-.miwt-tree .sibling_following img.tpi{
+.miwt-tree .parent-sibling-following img.tpi,
+.miwt-tree .last-sibling img.tpi,
+.miwt-tree .sibling-following img.tpi{
     width:14px;
 }
 
-.miwt-tree .last_sibling,
-.miwt-tree td.sibling_following{
+.miwt-tree .last-sibling,
+.miwt-tree td.sibling-following{
     width:16px;
 }
-#ie7only .miwt-tree .last_sibling,
-#ie7only .miwt-tree td.sibling_following{
+#ie7only .miwt-tree .last-sibling,
+#ie7only .miwt-tree td.sibling-following{
     width:1%;
     min-width:16px;
     max-width:16px;
 }
-.miwt-tree td.parent_last_sibling {
+.miwt-tree td.parent-last-sibling {
     background: transparent;
     padding:0;
 }
