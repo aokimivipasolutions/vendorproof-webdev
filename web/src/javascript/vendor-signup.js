@@ -128,7 +128,7 @@ jQuery(function($){
 
 	function updateHelpPoints(context) {
 		var $con = $(context);
-		var $helpPoints = $con.find('span.help_point');
+		var $helpPoints = $con.find('span.help-point');
 
 		$helpPoints.each(function(){
 			var $helpPoint = $(this);
@@ -158,7 +158,7 @@ jQuery(function($){
 		});
 
 		$(document)
-			.on('click', '.opentip-container, .help_point', function(evt) {
+			.on('click', '.opentip-container, .help-point', function(evt) {
 				evt.stopPropagation();
 			})
 			.on('click', function(evt) {
