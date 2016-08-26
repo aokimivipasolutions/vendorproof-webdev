@@ -1,5 +1,9 @@
 @import "../../config/base-import";
 
+.hidden {
+	display: none;
+}
+
 .create_user {
 	.user_name,
 	.first_name,
