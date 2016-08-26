@@ -202,6 +202,7 @@ button.ui-datepicker-trigger img {
   height: 15px;
 }
 
+.user-entry-required > label,
 .user_entry_required > label,
 .user_entry_required > .label {
   padding-left: 10px;
