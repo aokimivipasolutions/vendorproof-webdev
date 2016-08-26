@@ -52,7 +52,8 @@ border: 1px solid #aaa;
     padding: 0; 
 }
 
-.miwt .dialog .windowcontent .dialog {
+.miwt .dialog .windowcontent .dialog,
+.miwt .dialog .windowcontent .workflow_item_resolve {
   padding: 10px;
 }
 
