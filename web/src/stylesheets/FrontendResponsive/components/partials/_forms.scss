@@ -28,7 +28,7 @@
 			box-shadow: 0 0 3px rgba(32,175,207,0.5);
 		}
 
-		.ieonly & {
+		.lt-ie9 & {
 			background: none;
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#fafafa',GradientType=0 ); /* IE6-8 */
 		}
