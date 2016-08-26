@@ -53,3 +53,4 @@ s/\.more_results/.more-results/g
 s/\.menu_item/.menu-item/g
 s/\.mi_inactive/.mi-inactive/g
 s/\.mi_active/.mi-active/g
+s/\.help_point/.help-point/g
