@@ -1,0 +1,11 @@
+@import "../../config/base-import";
+
+.site_logo {
+	text-align: center;
+}
+
+#body-wc-0 {
+	@include breakpoint($bp-tablets-portrait) {
+		max-width: 460px;
+	}
+}

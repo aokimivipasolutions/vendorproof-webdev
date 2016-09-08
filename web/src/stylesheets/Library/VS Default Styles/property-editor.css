@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Basic Styles for Property Editor/Viewer
+   baiken@vipasolutions.com, sbenes
+   Updated January 4, 2013
+   ========================================================================== */
+
+/* Form Elements
+   ========================================================================== */
+.property_wrapper input,
+.property_wrapper select,
+.property_wrapper textarea {
+  border: 1px solid #B7B7B5;
+  padding: 2px;
+  margin: 2px;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.property_wrapper input:focus,
+.property_wrapper select:focus,
+.property_wrapper textarea:focus {
+  background-color: #feffdd;
+}
+/*
+.property_wrapper button,
+.property_wrapper input[type="submit"],
+.property_wrapper input[type="reset"],
+.property_wrapper .constraints a[data-features~="submit"] {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+  
+  background: #e5e5e3;
+  
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  
+  padding: 4px 8px;
+  margin-right: 5px;
+  border: 1px solid #B7B7B5;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  
+  -webkit-text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  -moz-text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  -ms-text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  -o-text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  -webkit-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset, 
+                      -1px -1px 0 rgba(0,0,0,0.05) inset;
+  -moz-box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset, 
+                   -1px -1px 0 rgba(0,0,0,0.05) inset;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset, 
+              -1px -1px 0 rgba(0,0,0,0.05) inset;
+}
+
+.property_wrapper button:hover,
+.property_wrapper input:hover[type="submit"],
+.property_wrapper input:hover[type="reset"] {
+  background-color: #DDDAAA;
+}
+
+.property_wrapper button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+*/
+
+/* Messages
+   ========================================================================== */
+/*
+.property_wrapper .message-container {
+  margin: 15px 0;
+}
+
+.property_wrapper .message-container .message {
+  text-align: center;
+  color: #D74300;
+  font-weight: bold;
+  background-color: #FFF7C2;
+  border: 2px solid #FFE180;
+  padding: 10px 15px;
+}
+
+.property_wrapper .message-container .message.error {
+  background-color: #FFD9DA;
+  border-color: #FFABAD;
+  color: #9E0013;
+}
+*/
+/* Content
+   ========================================================================== */
+.property_wrapper .prop > label {
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.property_wrapper .actions {
+  margin: 10px 0;
+  text-align: right;
+}
+
+.property_wrapper .actions.top {
+  display: none;
+}
+
+.property_wrapper .prop {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.property_wrapper .user_entry_required label:after {
+  content: "*";
+  color: #ff0000;
+}
+
+.property_wrapper .validation_error input[type="text"]{
+  border: 1px solid red;
+}
+
+.property_wrapper .property_viewer,
+.property_wrapper .property_editor {
+  padding: 5px;
+}
+

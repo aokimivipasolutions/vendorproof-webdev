@@ -1,7 +1,6 @@
 
 .idea/workspace.xml
 .idea/tasks.xml
-.idea/dictionaries
 .idea/encodings.xml
 
 ## File-based project format:
@@ -19,6 +18,8 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
+.idea/checkstyle-idea.xml
+
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -29,3 +30,4 @@ build/
 bower_components/
 node_modules/
 npm-debug.log
+

@@ -1,0 +1,46 @@
+/* payment dialog */ 
+.payment_table td {
+  padding: 5px 10px;
+  border-right: 2px solid #d9d9d9;
+}
+
+.payment_table td:first-child {
+  padding-left:0;
+}
+
+.payment_table td:last-child {
+  border-right: 0;
+}
+
+.payment_table .label {
+  font-weight: bold;
+}
+
+.payment_box_content{
+  padding: 10px 0;
+}
+
+.payment_box_content label {
+  padding-top: 10px;
+}
+
+.payment_powered_text,
+.payment_powered img {
+  vertical-align: middle;
+}
+
+/* fixing padding on item tables */ 
+.workflow_items_tree {
+  margin-top: 20px;
+  /* adding padding above the first item so that it doesn't sit too close to the refresh button*/ 
+}
+
+.workflow_items_tree h3 {
+  margin-bottom: 0;
+}
+
+.workflow_items_tree table.miwt-tree {
+  margin-top: 0;
+}
+
+

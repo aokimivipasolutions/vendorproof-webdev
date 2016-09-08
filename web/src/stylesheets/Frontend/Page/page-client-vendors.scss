@@ -1,0 +1,256 @@
+@import "../../config/base-import";
+
+@include fontFace('GlyphLib', '/glyph-lib', 'vp-glyph-font');
+@import "../../FrontendResponsive/components/partials/messages";
+
+.business_name .val input,
+.dba_name .val input {
+  width: 100%;
+  min-width: 300px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.connection {
+  float: right;
+  background: #f5f5f5;
+  width: 280px;
+  margin-top: 50px;
+}
+
+.connection .connection_element {
+  border-bottom: 1px dotted #d0d0d0;
+  padding: 20px;
+}
+
+.connection .connection_element label {
+  font-weight: bold;
+  color: #aaa;
+  display: block;
+  margin: 0 0 5px;
+}
+
+.connection .monitor_status {
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.connection .monitor_status.notice,
+.connection .ein_status.notice { 
+  background: #e0d927; 
+  color: #fff;  
+}
+.connection .monitor_status.clear,
+.connection .ein_status.clear { 
+  background: #4cb82f;
+  color: #fff;   
+}
+.connection .monitor_status.attention,
+.connection .ein_status.attention { 
+  background: #dd2222;
+  color: #fff;   
+}
+
+.connection .monitor_status.notice label,
+.connection .monitor_status.clear label,
+.connection .monitor_status.attention label {   
+  color: #fff;
+}
+
+.connection .ein_status.notice label,
+.connection .ein_status.clear label,
+.connection .ein_status.attention label {   
+  color: #fff;
+}
+
+.connection .monitor_status .val {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.vendor_category_editor {
+  position: relative;
+}
+
+.vendor_category_editor .actions {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.vendor_category_editor .actions .miwt_submit {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-indent: -4000em;
+}
+
+.vendor_category_editor a.edit_button {
+  background: center center transparent url(/_resources/all/docroot/cms/icons/x16/pencil_icon.png) no-repeat;
+}
+
+.vendor_category_editor a.remove_button {
+  background: center center transparent url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif) no-repeat;
+}
+
+.vendor_category_editor a.save_button {
+  background: center center transparent url(/_resources/dyn/files/1685841z2449bbe9/_fn/disk.png) no-repeat;
+}
+
+.vendor_category_editor a.cancel-button {
+  background: center center transparent url(/_resources/dyn/files/1685840z534e8b7f/_fn/cancel.png) no-repeat;
+}
+
+.vendor_category_editor select {
+  width: 100%; 
+}
+
+.vendor_of .link {
+  *zoom: 1;
+  padding: 5px;
+  transition: all 0.25s;
+}
+
+.vendor_of .link:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.vendor_of .link:before,
+.vendor_of .link:after {
+  content: "";
+  display: table;
+}
+
+.vendor_of .link:after {
+  clear: both;
+}
+
+.vendor_of .link .action {
+  float: right;
+}
+
+.vendor_of .link .action a {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: center center transparent url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif) no-repeat;
+  text-indent: -4000em;  
+}
+
+.vendor_of .link .val {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.search .column-visibility {
+  display: none;
+}
+
+.vendor_information {
+  margin-right: 300px;
+}
+
+.vendor_information .ctb,
+.vendor_information .cal,
+.vendor_information .birth_date span.val {
+  display: block;
+}
+
+.vendorproof_property {
+  background: #FFF7C2;
+  margin: 10px 0 5px;
+  padding: 5px 8px;
+  border: 2px solid #FFE180;
+  float: left;
+}
+
+.vendorproof_property .vendor_label {
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+  color: #a08f1d;
+  cursor: default;
+  margin-right: 10px;
+}
+
+.vendorproof_property .vendor_value {
+  display: inline;
+  margin-right: 10px;
+}
+
+.prop.tin input,
+.prop.duns input,
+.prop.dba_name input,
+.prop.business_name input,
+.prop.tin .val > div > span,
+.prop.duns .val > div > span,
+.prop.dba_name .val > div > span,
+.prop.business_name .val > div > span {
+  display: block;
+}
+
+.vendorproof_property .btn {
+  position: relative;
+  top: -1px;
+}
+
+.vendorproof_property button.btn {
+  padding: 3px 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+
+.transaction_history .last-column {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.transaction_history label {
+  float: left;
+  padding: 10px 0;
+}
+
+.transaction_history .actions {
+  text-align: right;
+}
+
+.property_wrapper > div > .actions.top {
+  float: right;
+  position: relative;
+  right: -300px;
+}
+
+.property_wrapper > div > .actions.bottom {
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+
+.dialog .monitorrecord_review h2 {
+  margin-top: 10px;
+}
+
+.dialog .monitorrecord_review .result_detail {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.dialog .monitorrecord_review .result_detail td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: #fff;
+}
+
+.dialog .monitorrecord_review .result_detail td.label {
+  background: #eaeaea;
+  width: 15%;
+  font-weight: bold;
+  font-size: 12px;
+}

@@ -1,0 +1,26 @@
+@media only print {
+	#nav,
+	#body-wc-0 {
+		border: none;
+	}
+
+	.step_receipt {
+
+		.vendor_signup {
+			margin-top: 0;
+		}
+
+		.print.actions,
+		.path.actions,
+		.vendor_signup,
+		.instructions {
+			display: none;
+
+		}
+	}
+
+	#nav,
+	#footer {
+		display: none;
+	}
+}

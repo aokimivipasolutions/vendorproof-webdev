@@ -1,0 +1,294 @@
+@import '../config/base-import';
+
+$max-width: 980px;
+$page-padding: 16px;
+$column-width: 440px;
+$header-height: 100px;
+$header-padding:32px;
+$color-blue: #2C6199;
+$color-dark-grey: #3a3a3a;
+$color-green: #33cc33;
+$font-sourcesanspro: "SourceSansProLight", "arial", "sans-serif";
+$font-sourcesanspro-italic: "SourceSansProLightItalic", "arial", "sans-serif";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: $color-dark-grey;
+  font-family: $font-sourcesanspro;
+  
+  strong, h2 {
+    font-weight: normal;
+  }
+}
+
+.cta {
+  margin: 24px auto;
+
+  .title {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+
+  @include breakpoint($bp-mobile-landscape){
+    display: inline-block;
+    margin: 0;
+    max-width: 326px;
+    width: 33%;
+  }
+}
+
+.box-wc {
+  max-width: $max-width;
+  margin:0 auto;
+  padding:0 $page-padding;
+
+  @include breakpoint($bp-tablets-landscape){
+    padding: 0;
+  }
+}
+
+.l_header {
+  position: absolute;
+  width: 100%;
+  padding-top: $header-padding;
+  height: $header-height;
+
+  .box-wc {
+    position: relative;
+  }
+
+  .script {
+    text-align: right;
+  }
+
+  .client-logo {
+    display: inline-block;
+    margin: 0;
+
+    &:before {
+      display: block;
+      content: "in partnership with";
+      color: $color-white;
+      text-align: center;
+      font-size: 0.8em;
+    }
+
+    @include breakpoint($bp-tablets-landscape){
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0;
+    }
+  }
+}
+
+.l_column1 {
+  padding-top: $header-height + $header-padding;
+  padding-bottom: 24px;
+  background-color: $color-dark-grey;
+  background-size: cover;
+
+  .box-wc .box-wc {
+    background-color: transparentize($color-dark-grey, 0.2);
+    padding: 30px;
+    border-radius: 24px;
+
+    .cover-image,
+    .heading {
+      display: none;
+    }
+
+    .body {
+      line-height: 1.7em;
+
+      h2 {
+        font-size: 2.5em;
+        margin-top: 0;
+        margin-bottom: 0.6em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      .vendor-proof {
+        color: $color-green;
+      }
+    }
+
+    button.signup {
+      background-color: $color-green;
+      color: $color-white;
+      border: none;
+      font-family: $font-sourcesanspro;
+      font-size: 1.6em;
+      padding: 16px 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 200ms;
+
+      &:hover {
+        background-color: lighten($color-green, 10%);
+      }
+    }
+    
+    span.signup {
+      display: block;
+      text-align: center;
+
+      &:after {
+        font-size: 0.7em;
+        content: "Credit Card Required";
+        padding-top: 10px;
+        padding-bottom: 0;
+        vertical-align: middle;
+        height: 26px;
+        display: block;
+
+        @include breakpoint($bp-mobile-landscape){
+          display: inline-block;
+          margin-left: 16px;
+          padding-left: 42px;
+          background: url("/resources/dyn/files/1904831z1292b35f/_fn/pay.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+
+    }
+  }
+
+  @include breakpoint($bp-mobile-landscape){
+    background: url('/resources/dyn/files/1904832z8b9be2e5/_fn/purl-background.jpg') top center no-repeat;
+    background-size: cover;
+
+    .box-wc .box-wc span.signup {
+      text-align: left;
+    }
+  }
+
+  @include breakpoint($bp-tablets-landscape){
+    .box-wc .box-wc {
+      max-width: $column-width;
+      margin-left: $max-width - $column-width;
+      padding-bottom: 48px;
+    }
+  }
+
+}
+
+.l_column2 {
+  background-color: $color-blue;
+  text-align: center;
+  padding: 30px;
+
+  h2 {
+    margin: 0 0 24px 0;
+    font-family: $font-sourcesanspro-italic;
+    font-size: 1.6em;
+  }
+}
+
+.l_footer {
+  text-align: center;
+
+  p {
+    margin: 1em 0;
+  }
+}
+
+.dialog {
+  width: 300px !important;
+  height: 220px;
+  left: 40%;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  background-color: rgba(50, 50, 50, 0.95) !important;
+  border: none !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.80);
+
+  .windowbuttons {
+    display: none;
+  }
+
+  .activewindowtitle {
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .windowcontent {
+    top: 40px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border-width: 1px 0 0 0;
+    padding: 12px;
+    text-align: center;
+
+    button {
+      color: #fff;
+      border: none;
+      font-family: "SourceSansProLight", "arial", "sans-serif";
+      font-size: 18px;
+      padding: 10px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+
+      &.submit {
+        background-color: #33cc33;
+        margin-right: 5px;
+        -webkit-transition: background-color 200ms;
+        transition: background-color 200ms;
+
+        &:hover {
+          background-color: #5cd65c;
+        }
+      }
+
+      &.cancel {
+        color: black;
+      }
+    }
+  }
+
+  .signup-id {
+    label {
+      display: none;
+    }
+
+    input.val {
+      font-family: "SourceSansProLight", "arial", "sans-serif";
+      display: block;
+      width: 70%;
+      height: 44px;
+      padding: 6px 12px;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 24px;
+      text-align: center;
+      color: #000;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      text-transform: uppercase;
+
+      &:focus {
+        border-color: #66afe9;
+        outline: 01;
+      }
+    }
+  }
+}

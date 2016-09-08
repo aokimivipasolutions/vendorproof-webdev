@@ -1,0 +1,14 @@
+#header,
+#nav,
+.actions.print,
+.actions.path,
+.instruction {
+  display: none;
+}
+
+#body-wc-0 {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}

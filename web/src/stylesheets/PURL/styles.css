@@ -1,0 +1,107 @@
+div.page {
+  min-width: 980px;
+}
+
+#header-wc-0,
+#body-wc-0 {
+  margin: 0 auto;
+  width: 980px;
+}
+
+#header-wc-0 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#e_content {
+  padding-bottom: 60px;
+}
+
+#body {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+#body h2 {
+  margin-top: 0; 
+}
+
+.heading {
+  border-bottom: 2px dotted #eaeaea;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.heading h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+#body div.cover {
+  margin: 20px 0 0;
+}
+
+#body .cover img {
+  width: 600px;
+}
+
+#body .description {
+  background: #f9f9f9;
+  border: 1px dotted #d0d0d0;
+  padding: 20px;
+}
+
+#body .short_description {
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  color: #333;  
+}
+
+#body .client {
+  float: right;
+  width: 320px;
+  margin: 20px 0 20px 15px;
+  background: #eef6f8;
+  border: 1px dotted #9abac4;
+  padding: 20px;
+}
+
+#body .client div.logo {
+  margin: 0 0 5px;
+  border: 1px solid #666;  
+  text-align: center;
+  background: #fff;
+}
+
+#body .client .logo img {
+  display: block;
+  width: 320px;
+}
+
+#body .client .info {
+  font-size: 12px;
+}
+
+#body .client .info .label {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-right: 5px;
+}
+
+#body .client .instructions {
+  margin: 20px 0;
+}
+
+#body .client .signup-button {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  height: 40px;
+  margin-top: -40px;
+}

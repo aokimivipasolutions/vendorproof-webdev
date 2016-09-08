@@ -1,0 +1,43 @@
+
+#body-wc-0 {
+	@include breakpoint($bp-tablets-portrait) {
+		max-width: 680px;
+
+		.step_payment & {
+			max-width: 720px;
+		}
+	}
+
+	@include breakpoint($bp-tablets-landscape) {
+		max-width: 980px;
+		.step_w9form & {
+			max-width: 980px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+}
+
+.genform {
+	position: relative;
+}
+
+.vendor_signup {
+	h1 {
+		text-align: center;
+	}
+
+	@include breakpoint($bp-tablets-portrait) {
+		padding-top: 30px;
+		margin-bottom: 30px;
+
+		h1 {
+			text-align: left;
+		}
+	}
+}
+
+.qa-link {
+	margin-top: 20px;
+	text-align: center;
+}

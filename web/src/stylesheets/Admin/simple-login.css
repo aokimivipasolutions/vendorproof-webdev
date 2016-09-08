@@ -1,0 +1,49 @@
+.login .username_con,
+.login .password_con,
+.login .actions_con {
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+  vertical-align: middle;
+  position: relative;
+}
+
+.login div.password {
+  position: absolute;
+  padding: 8px;
+  left: 0;
+  top: 0;
+}
+
+.login label,
+.login .title {
+  display: none;
+}
+
+.password-reset{
+    max-width: 550px;
+}
+
+.password-reset .password_rules {
+    margin-top: 0;
+}
+
+.password-reset .username,
+.password-reset .password {
+    display: block;
+}
+
+.password-reset .password,
+.password-reset .password-verification-con {
+    margin: 10px 0;
+}
+
+.password-reset .label.password,
+.password-reset .label.username {
+    float: left;
+    width: 150px;
+}
+
+.password-reset input.set_password_button {
+    margin: 0;
+}

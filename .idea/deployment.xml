@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Vendorproof QA">
+  <component name="PublishConfigData" serverName="VP Web Dev WebDAV">
     <serverData>
-      <paths name="Vendorproof QA">
+      <paths name="VP Web Dev WebDAV">
         <serverdata>
           <mappings>
-            <mapping deploy="qa.vendorproof.com\Web\Design" local="$PROJECT_DIR$/web/design" web="/" />
-            <mapping deploy="qa.vendorproof.com\Web\FavIcons" local="$PROJECT_DIR$/web/favicons" web="/" />
-            <mapping deploy="qa.vendorproof.com\Web\Javascript" local="$PROJECT_DIR$/web/javascript" web="/" />
-            <mapping deploy="qa.vendorproof.com\Web\Stylesheets" local="$PROJECT_DIR$/web/stylesheets/build" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Vendorproof QA1">
-        <serverdata>
-          <mappings>
-            <mapping deploy="vendorproof-qa1.providertrust.com\Web\Design" local="$PROJECT_DIR$/web/design" web="/" />
-            <mapping deploy="vendorproof-qa1.providertrust.com\Web\FavIcons" local="$PROJECT_DIR$/web/favicons" web="/" />
-            <mapping deploy="vendorproof-qa1.providertrust.com\Web\Javascript" local="$PROJECT_DIR$/web/javascript" web="/" />
-            <mapping deploy="vendorproof-qa1.providertrust.com\Web\Stylesheets" local="$PROJECT_DIR$/web/stylesheets/build" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="VipaSuite Draft">
-        <serverdata>
-          <mappings>
-            <mapping deploy="" local="" web="" />
+            <mapping deploy="/Design" local="$PROJECT_DIR$/build/design" web="/Design" />
+            <mapping deploy="/FavIcons" local="$PROJECT_DIR$/build/favicons" web="/FavIcons" />
+            <mapping deploy="/Javascript" local="$PROJECT_DIR$/build/javascript" web="/Javascript" />
+            <mapping deploy="/Sourcemaps" local="$PROJECT_DIR$/build/sourcemaps" web="/Sourcemaps" />
+            <mapping deploy="/Stylesheets" local="$PROJECT_DIR$/build/stylesheets" web="/Stylesheets" />
           </mappings>
         </serverdata>
       </paths>

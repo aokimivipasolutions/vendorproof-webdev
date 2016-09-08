@@ -1,0 +1,126 @@
+
+.subclient_help {
+	text-align: right;
+}
+
+.subclient_selection .column-visibility {
+	display: none;
+}
+
+
+.business_information {
+	h2 {
+		display: none;
+	}
+
+	.prop {
+		position: relative;
+		padding: 10px 0;
+		padding-left: $mobile-label-offset;
+		@include clearfix;
+
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 100%;
+			background-color: #377183;
+			width: 0;
+			margin-right: 10px;
+			transition: all 0.15s;
+		}
+
+		&.active {
+			&:before {
+				width: 10px;
+			}
+		}
+
+		> .label {
+			font-weight: bold;
+			position: relative;
+			display: block;
+			margin-bottom: 5px;
+			margin-left: -$mobile-label-offset;
+			font-size: 14px;
+		}
+	}
+
+	.user_entry_required {
+		> .label,
+		> label {
+			padding-left: 0;
+			background: none;
+
+			label {
+				padding-right: 10px;
+				background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right top;
+			}
+		}
+	}
+
+	.help-point {
+		position: absolute;
+		right: 0;
+		font-size:0;
+	}
+
+	.persistence_actions.bottom {
+		display: block;
+		text-align: right;
+		margin: 30px 0 0;
+	}
+
+	.business_name,
+	.dba_name {
+		input {
+			width: 100%;
+		}
+	}
+
+	.mailing_address .address_form .address_lines {
+		margin-top: 15px;
+	}
+
+	.subprop {
+		margin: 20px 0 0;
+
+		> label {
+			display: inline-block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		> .val {
+			margin-left: 10px;
+		}
+
+	}
+
+	.birth_date {
+
+
+		.birth_date_input {
+			text-align: center;
+			margin-right: 5px;
+		}
+
+		.birth_date_day {
+			width: 40px;
+		}
+
+		.birth_date_year {
+			width: 55px;
+		}
+	}
+
+	@include breakpoint($bp-tablets-portrait) {
+		.prop {
+			> .label {
+				font-size: 16px;
+			}
+		}
+	}
+}

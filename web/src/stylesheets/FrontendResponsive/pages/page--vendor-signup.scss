@@ -1,0 +1,79 @@
+@import "../../config/base-import";
+
+.hidden {
+	display: none;
+}
+
+.create_user {
+	.user_name,
+	.first_name,
+	.last_name,
+	.optin,
+	.password .double_entry_first,
+	.password .double_entry_second,
+	.email,
+	.email_verify  {
+		margin: 0 0 10px;
+	}
+
+	.password .instructions {
+		display: none;
+	}
+
+	input[type=text],
+	input[type=password] {
+		width: 100%;
+	}
+
+	label {
+		font-size: 12px;
+		display: block;
+	}
+
+	div.first_name,
+	div.last_name,
+	.password div.double_entry_first,
+	.password div.double_entry_second  {
+		float: left;
+		width: 50%;
+	}
+
+	div.first_name,
+	.password div.double_entry_first {
+		padding-right: 10px;
+	}
+
+	.email {
+		clear: both;
+	}
+
+	.password {
+		zoom: 1;
+		@include clearfix;
+	}
+
+	.actions {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.eula {
+		input[type=checkbox] {
+			margin-right: 5px;
+		}
+
+		p {
+			display: inline;
+			font-size: 12px;
+		}
+	}
+}
+
+.existing_user {
+	text-align: center;
+	margin-top: 25px;
+
+	p {
+		margin-bottom: 0;
+	}
+}

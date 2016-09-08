@@ -1,0 +1,138 @@
+
+/* property editor/viewer */
+.property_wrapper {
+	.prop {
+		display: table;
+		width: 100%;
+
+		&:hover {
+			> label,
+			> .label {
+				background-color: #377183;
+				color: $color-white;
+			}
+
+			> .val {
+				background-color: $color-grey-ea;
+			}
+		}
+
+		&.checkbox {
+			display: block;
+			margin-left: 220px;
+			width: auto;
+			border-left: 3px solid $color-grey-d0;
+
+			> .val {
+				display: block;
+			}
+		}
+
+		> label,
+		> .label {
+			display: table-cell;
+			width: 200px;
+			font-weight: bold;
+			border-right: 3px solid $color-grey-d0;
+			padding: 10px;
+			vertical-align: top;
+			text-align: right;
+			transition: all 0.25s;
+		}
+
+		> .val {
+			display: table-cell;
+			padding: 10px 15px;
+			vertical-align: top;
+			background: $color-grey-f5;
+			border-bottom: 1px dotted $color-grey-d0;
+			transition: all 0.25s;
+		}
+
+		.search_wrapper {
+			margin: 0 0 15px;
+		}
+	}
+
+	.user_entry_required {
+		> label,
+		> .label {
+			padding-right: 10px;
+			padding-left: 0;
+			background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat 211px 9px;
+		}
+	}
+
+	.subprop {
+		margin: 15px 0 0;
+		clear: both;
+
+		> label {
+			display: inline-block;
+			margin: 0 0 5px;
+			font-weight: bold;
+			font-size: 12px;
+		}
+
+		> .val {
+			margin-left: 10px;
+		}
+
+		.name_form {
+			white-space: nowrap;
+		}
+
+		&.user_entry_required {
+			> label,
+			> .label {
+				padding-right: 10px;
+				padding-left: 0;
+				background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat right 0;
+			}
+		}
+	}
+
+	/* property viewer specificy entity styles */
+	.address_form label,
+	.name_form .label {
+		font-weight: bold;
+		font-size: 12px;
+		display: block;
+	}
+
+	.mailing_address .ctb {
+		margin: 0 0 10px;
+		display: block;
+	}
+
+	textarea {
+		width: 100%;
+		resize: vertical;
+	}
+
+	@include breakpoint($bp-tablets-portrait) {
+		.address_form {
+			span.address_line,
+			input.address_line,
+			.city,
+			.region,
+			.postal_code {
+				margin-bottom: 5px;
+				display: block;
+			}
+		}
+
+		.name_form {
+			.part {
+				display: inline-block;
+				margin-right: 10px;
+				margin-bottom: 5px;
+			}
+
+			input.given_name,
+			input.family_name {
+				width: 170px;
+			}
+		}
+	}
+}
