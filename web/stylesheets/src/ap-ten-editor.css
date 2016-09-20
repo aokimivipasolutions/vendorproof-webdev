@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?v=4.5.0');
+  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), 
+    url('/resources/dyn/files/95508880z638213ed/_fn/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), 
+    url('/resources/dyn/files/95508879z9dc6b786/_fn/fontawesome-webfont.woff?v=4.5.0') format('woff'), 
+    url('/resources/dyn/files/95508878zeac18710/_fn/fontawesome-webfont.ttf') format('truetype'), 
+    url('/resources/dyn/files/95508877z7a7e9a81/_fn/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.miwt-collapsable.shown .miwt-collapsable-content {
+  position: relative !important;
+  opacity: 1;
+  
+}
+
+.miwt-collapsable.hidden .miwt-collapsable-content {
+  opacity: 0;
+}
+
+.miwt-collapsable.hidden .btn.trigger:before {
+  font-family: "FontAwesome";
+  content:"\f138";
+  padding: 5px 5px 5px 0px;
+}
+
+.miwt-collapsable.shown .btn.trigger:before {
+  font-family: "FontAwesome";
+  content:"\f13a";
+  padding: 5px 5px 5px 0px;
+}
+
+.btn.trigger {
+  width: 75%;
+  text-align: left;
+  background: linear-gradient(to bottom, #478bbc 0%,#3f7daa 49%,#396f96 100%) !important;
+  color: white !important;
+  margin-top: 5px;
+}
+
+span.btn.trigger {
+  background: transparent !important;
+}
+
+.persistence_actions {
+  float: right;
+}
+
+.client-location-column {
+  width: 25%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.client-location-add {
+  display: block;
+  margin-top: 10px;
+}
+
+.client-location-column select {
+  max-width: 210px !important;
+  width: 98%;
+}
+
+.ap-ten-add-button .btn {
+  border: 2px dotted #478bbc;
+  color: #478bbc;
+  font-weight: bold;
+  background: transparent;
+  margin: 5px 0px 5px 0px;
+  width: 75%;
+}
+
+.ap-ten-add-button .btn.editing {
+	border: 2px dotted gray;
+  	color: gray;
+}
+
+.ap-ten-add-button .btn:before {
+  font-family: "FontAwesome";
+  content: "\f067";
+  padding: 5px 5px 5px 0px;
+}
+
+.miwt-collapsable-content label {
+	font-weight: bold;
+}
+
+.address_form div.address_line {
+  width: 50% !important;
+  padding-right: 10px;
+}
+
+.lawson-contact-ui .name_form .part {
+  padding-left: 0px;
+  width: 50%;
+}
+
+div.miwt-collapsable-content {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+select:disabled, .ap-ten-add-button button:disabled,
+.remit-to-ui button:disabled, .purchasing-contact-ui button:disabled {
+  cursor: not-allowed;
+}
+
+.ap-ten-add-button {
+  border-bottom: 1px dotted #d0d0d0;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.message-container.empty {
+  margin: 0px !important;
+}
+
+.no-close-btn .ui-dialog-titlebar-close {
+  display: none;
+}
+
+div .client-location-column {
+  padding-top: 5px;
+}
+
+.client-location-column button {
+	min-width: 70px;
+}
+
+.miwt-collapsable-content .message-container {
+  clear: both;
+}
+
+.disabled-div {
+  opacity: 0.4;
+}
