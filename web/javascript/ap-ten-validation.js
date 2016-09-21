@@ -17,7 +17,7 @@ jQuery(function($){
    */
   function disableEdits()
   {
-  	jQuery('.remit-to-ui').addClass("disabled-div");
+    jQuery('.remit-to-ui').addClass("disabled-div");
     jQuery('.purchasing-contact-ui').addClass("disabled-div");
     jQuery('.remit-to-ui').on("mousedown", function () { displayWarningDialog(); });
     jQuery('.purchasing-contact-ui').on("mousedown", function () { displayWarningDialog(); });
@@ -29,7 +29,7 @@ jQuery(function($){
    */
   function enableEdits()
   {
-  	jQuery('.remit-to-ui').removeClass("disabled-div");
+    jQuery('.remit-to-ui').removeClass("disabled-div");
     jQuery('.purchasing-contact-ui').removeClass("disabled-div");
     jQuery('.remit-to-ui').off();
     jQuery('.purchasing-contact-ui').off();
@@ -40,7 +40,7 @@ jQuery(function($){
    */
   function displayWarningDialog()
   {
-  	jQuery("<div>Before making any edits to the <b>Remittance Address List</b> or <b>Purchasing Contact List</b> save or cancel your changes.</div>")
+    jQuery("<div>Before making any edits to the <b>Remittance Address List</b> or <b>Purchasing Contact List</b> save or cancel your changes.</div>")
       .dialog({
         modal: true,
         title: "Unsaved Changes Detected",
@@ -49,7 +49,7 @@ jQuery(function($){
           text: "OK",
           click: function () 
           {
-          	$(this).dialog("close");
+	    $(this).dialog("close");
           }
         }]
       });
@@ -62,9 +62,10 @@ jQuery(function($){
   {
     if (isEditingChsLocation())
     {
-    	disableEdits();
+      disableEdits();
     }
-  	jQuery(document).on("mouseup",".ap-ten-add-button button:contains('New Location')", function () {
+    
+    jQuery(document).on("mouseup",".ap-ten-add-button button:contains('New Location')", function () {
       disableEdits();
     });
     
