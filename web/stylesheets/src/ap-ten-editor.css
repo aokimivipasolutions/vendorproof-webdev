@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?v=4.5.0');
-  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), 
-    url('/resources/dyn/files/95508880z638213ed/_fn/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), 
-    url('/resources/dyn/files/95508879z9dc6b786/_fn/fontawesome-webfont.woff?v=4.5.0') format('woff'), 
-    url('/resources/dyn/files/95508878zeac18710/_fn/fontawesome-webfont.ttf') format('truetype'), 
-    url('/resources/dyn/files/95508877z7a7e9a81/_fn/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+  url('/resources/dyn/files/95508880z638213ed/_fn/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),
+  url('/resources/dyn/files/95508879z9dc6b786/_fn/fontawesome-webfont.woff?v=4.5.0') format('woff'),
+  url('/resources/dyn/files/95508878zeac18710/_fn/fontawesome-webfont.ttf') format('truetype'),
+  url('/resources/dyn/files/95508877z7a7e9a81/_fn/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +13,7 @@
 .miwt-collapsable.shown .miwt-collapsable-content {
   position: relative !important;
   opacity: 1;
-  
+
 }
 
 .miwt-collapsable.hidden .miwt-collapsable-content {
@@ -74,8 +74,8 @@ span.btn.trigger {
 }
 
 .ap-ten-add-button .btn.editing {
-	border: 2px dotted gray;
-  	color: gray;
+  border: 2px dotted gray;
+  color: gray;
 }
 
 .ap-ten-add-button .btn:before {
@@ -85,7 +85,7 @@ span.btn.trigger {
 }
 
 .miwt-collapsable-content label {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .address_form div.address_line {
@@ -106,6 +106,11 @@ div.miwt-collapsable-content {
 select:disabled, .ap-ten-add-button button:disabled,
 .remit-to-ui button:disabled, .purchasing-contact-ui button:disabled {
   cursor: not-allowed;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  color: black;
+  margin-left: -3px;
 }
 
 .ap-ten-add-button {
@@ -127,7 +132,7 @@ div .client-location-column {
 }
 
 .client-location-column button {
-	min-width: 70px;
+  min-width: 70px;
 }
 
 .miwt-collapsable-content .message-container {
@@ -138,12 +143,14 @@ div .client-location-column {
   opacity: 0.4;
 }
 
-.miwt-collapsable-content .actions.persistence_actions {
-  margin: 0;
+.remit-to-ui .name_form .middle_container,
+.purchasing-contact-ui .name_form .middle_container {
+  padding-left: 0px !important;
 }
 
-.miwt-collapsable {
-  clear: both;
+.remit-to-ui .name_form .part,
+.purchasing-contact-ui .name_form .part {
+  display: block;
 }
 
 /** Profile Pages **/
@@ -151,12 +158,12 @@ div .client-location-column {
 .profile-view .miwt-collapsable,
 .vendor_information .ap-ten-add-button,
 .vendor_information .miwt-collapsable {
-	max-width: 1000px;
+  max-width: 1000px;
 }
 
 .profile-view .client-location-column,
 .vendor_information .client-location-column {
-	width: 15%;
+  width: 15%;
 }
 
 .client-location-column .select2-container--pt.select2-container--disabled .select2-selection--single,
@@ -164,10 +171,23 @@ div .client-location-column {
 .vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single,
 .vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single .select2-selection__arrow {
   background-color: #d2d2d2;
-  cursor: not-allowed;  
 }
 
-.client-location-column .select2-container--pt.select2-container--disabled .select2-selection--single .select2-selection__rendered,
-.vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single .select2-selection__rendered {
-  color: #808080; 
+.remit-to-ui .property_wrapper .prop,
+.purchasing-contact-ui .property_wrapper .prop {
+  width: 80%;
+}
+
+.remit-to-ui .property_wrapper .prop > label,
+.remit-to-ui .property_wrapper .prop > .label,
+.purchasing-contact-ui .property_wrapper .prop > label,
+.purchasing-contact-ui .property_wrapper .prop > .label {
+  width: 150px;
+}
+
+.remit-to-ui .user_entry_required > label,
+.remit-to-ui .user_entry_required > .label,
+.purchasing-contact-ui .user_entry_required > label,
+.purchasing-contact-ui .user_entry_required > .label {
+  background-position: 96% 4%;
 }
