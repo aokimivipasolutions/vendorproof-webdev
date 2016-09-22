@@ -14,6 +14,7 @@ body {
 
 h1 {
   font-size: 2.5em;
+  font-weight: 300;
   line-height: 1em;
   color: #3a3a3a;
 
@@ -60,7 +61,7 @@ a.btn {
 }
 
 #e_header {
-  background: url(/_resources/dyn/files/95510713zd8c1bf7c/_fn/VP-welcome-heading.jpg) no-repeat right center;
+  background: url("/files/design/welcome 2016/VP-welcome-heading.jpg") no-repeat right center;
   min-width: 1000px;
 }
 
@@ -114,7 +115,7 @@ header .box-wc {
                     rgba(44,97,153,0.85),
                     rgba(44,97,153,0.85)
     ),
-    url(/_resources/dyn/files/95510708z560857b5/_fn/bucket1.jpg);
+    url("/files/design/welcome 2016/bucket1.jpg");
   }
 
   &.two {
@@ -123,7 +124,7 @@ header .box-wc {
                     rgba(44,97,153,0.85),
                     rgba(44,97,153,0.85)
     ),
-    url(/_resources/dyn/files/95510709z210f6723/_fn/bucket2.jpg);
+    url("/files/design/welcome 2016/bucket2.jpg");
   }
 
   &.three {
@@ -132,7 +133,7 @@ header .box-wc {
                     rgba(44,97,153,0.85),
                     rgba(44,97,153,0.85)
     ),
-    url(/_resources/dyn/files/95510710z41c8eec6/_fn/bucket3.jpg);
+    url("/files/design/welcome 2016/bucket3.jpg");
   }
 }
 
