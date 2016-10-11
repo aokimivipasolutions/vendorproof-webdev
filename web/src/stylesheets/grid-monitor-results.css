@@ -59,3 +59,8 @@
 .actions {
   overflow: auto;
 }
+
+.initial-search-completion {
+    font-size: 0.85em;
+    font-style: italic;
+}
