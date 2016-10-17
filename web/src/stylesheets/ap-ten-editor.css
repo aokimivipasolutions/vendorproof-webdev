@@ -1,110 +1,111 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?v=4.5.0');
-  src: url('/resources/dyn/files/95508876zd79aa17/_fn/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),
-  url('/resources/dyn/files/95508880z638213ed/_fn/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),
-  url('/resources/dyn/files/95508879z9dc6b786/_fn/fontawesome-webfont.woff?v=4.5.0') format('woff'),
-  url('/resources/dyn/files/95508878zeac18710/_fn/fontawesome-webfont.ttf') format('truetype'),
-  url('/resources/dyn/files/95508877z7a7e9a81/_fn/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  src: url("/files/design/fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("/files/design/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"),
+  url("/files/design/fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"),
+  url("/files/design/fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"),
+  url("/files/design/fonts/fontawesome-webfont.ttf") format("truetype"),
+  url("/files/design/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-.miwt-collapsable.shown .miwt-collapsable-content {
+.vendor-locations-ui .miwt-collapsable.shown .miwt-collapsable-content {
   position: relative !important;
   opacity: 1;
-
 }
 
-.miwt-collapsable.hidden .miwt-collapsable-content {
+.vendor-locations-ui .miwt-collapsable.hidden .miwt-collapsable-content {
   opacity: 0;
 }
 
-.miwt-collapsable.hidden .btn.trigger:before {
+.vendor-locations-ui .miwt-collapsable.hidden .btn.trigger:before {
   font-family: "FontAwesome";
-  content:"\f138";
-  padding: 5px 5px 5px 0px;
+  content: "\f138";
+  padding: 5px 5px 5px 0;
 }
 
-.miwt-collapsable.shown .btn.trigger:before {
+.vendor-locations-ui .miwt-collapsable.shown .btn.trigger:before {
   font-family: "FontAwesome";
-  content:"\f13a";
-  padding: 5px 5px 5px 0px;
+  content: "\f13a";
+  padding: 5px 5px 5px 0;
 }
 
-.btn.trigger {
+.vendor-locations-ui .btn.trigger {
   width: 75%;
   text-align: left;
-  background: linear-gradient(to bottom, #478bbc 0%,#3f7daa 49%,#396f96 100%) !important;
+  background: -webkit-linear-gradient(top, #478bbc 0%, #3f7daa 49%, #396f96 100%) !important;
+  background: linear-gradient(to bottom, #478bbc 0%, #3f7daa 49%, #396f96 100%) !important;
   color: white !important;
   margin-top: 5px;
 }
 
-span.btn.trigger {
+.vendor-locations-ui span.btn.trigger {
   background: transparent !important;
 }
 
-.persistence_actions {
+.vendor-locations-ui .persistence_actions {
   float: right;
 }
 
-.client-location-column {
+.vendor-locations-ui .client-location-column {
   width: 25%;
   display: inline-block;
   font-weight: bold;
 }
 
-.client-location-add {
+.vendor-locations-ui .client-location-add {
   display: block;
   margin-top: 10px;
 }
 
-.client-location-column select {
+.vendor-locations-ui .client-location-column select {
   max-width: 210px !important;
   width: 98%;
 }
 
-.ap-ten-add-button .btn {
+.vendor-locations-ui .ap-ten-add-button .btn {
   border: 2px dotted #478bbc;
   color: #478bbc;
   font-weight: bold;
   background: transparent;
-  margin: 5px 0px 5px 0px;
+  margin: 5px 0 5px 0;
   width: 75%;
 }
 
-.ap-ten-add-button .btn.editing {
+.vendor-locations-ui .ap-ten-add-button .btn.editing {
   border: 2px dotted gray;
   color: gray;
 }
 
-.ap-ten-add-button .btn:before {
+.vendor-locations-ui .ap-ten-add-button .btn:before {
   font-family: "FontAwesome";
   content: "\f067";
-  padding: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0;
 }
 
-.miwt-collapsable-content label {
+.vendor-locations-ui .miwt-collapsable-content label {
   font-weight: bold;
 }
 
-.address_form div.address_line {
+.vendor-locations-ui .address_form div.address_line {
   width: 50% !important;
   padding-right: 10px;
 }
 
-.lawson-contact-ui .name_form .part {
-  padding-left: 0px;
+.vendor-locations-ui .lawson-contact-ui .name_form .part {
+  padding-left: 0;
   width: 50%;
 }
 
-div.miwt-collapsable-content {
+.vendor-locations-ui div.miwt-collapsable-content {
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-select:disabled, .ap-ten-add-button button:disabled,
-.remit-to-ui button:disabled, .purchasing-contact-ui button:disabled {
+.vendor-locations-ui select:disabled,
+.vendor-locations-ui .ap-ten-add-button button:disabled,
+.vendor-locations-ui .remit-to-ui button:disabled, .purchasing-contact-ui button:disabled {
   cursor: not-allowed;
   -webkit-appearance: none;
   background: transparent;
@@ -113,94 +114,97 @@ select:disabled, .ap-ten-add-button button:disabled,
   margin-left: -3px;
 }
 
-.select2-container--disabled .select2-selection__arrow {
+.vendor-locations-ui .select2-container--disabled .select2-selection__arrow {
   display: none;
 }
 
-.select2-container--disabled .select2-selection {
+.vendor-locations-ui .select2-container--disabled .select2-selection {
   background: transparent !important;
   border: none;
 }
 
-.select2-container--disabled .select2-selection__rendered {
-    padding: 0 !important;
+.vendor-locations-ui .select2-container--disabled .select2-selection__rendered {
+  padding: 0 !important;
 }
 
-.ap-ten-add-button {
+.vendor-locations-ui .ap-ten-add-button {
   border-bottom: 1px dotted #d0d0d0;
   padding-bottom: 20px;
   clear: both;
 }
 
-.message-container.empty {
-  margin: 0px !important;
+.vendor-locations-ui .message-container.empty {
+  margin: 0 !important;
 }
 
-.no-close-btn .ui-dialog-titlebar-close {
+.vendor-locations-ui .no-close-btn .ui-dialog-titlebar-close {
   display: none;
 }
 
-div .client-location-column {
+.vendor-locations-ui div .client-location-column {
   padding-top: 5px;
+  text-decoration: underline;
 }
 
-.client-location-column button {
+.vendor-locations-ui .client-location-column button {
   min-width: 70px;
 }
 
-.miwt-collapsable-content .message-container {
+.vendor-locations-ui .miwt-collapsable-content .message-container {
   clear: both;
 }
 
-.disabled-div {
+.vendor-locations-ui .disabled-div {
   opacity: 0.4;
 }
 
-.remit-to-ui .name_form .middle_container,
-.purchasing-contact-ui .name_form .middle_container {
-  padding-left: 0px !important;
+.vendor-locations-ui .remit-to-ui .name_form .middle_container,
+.vendor-locations-ui .purchasing-contact-ui .name_form .middle_container {
+  padding-left: 0 !important;
 }
 
-.remit-to-ui .name_form .part,
-.purchasing-contact-ui .name_form .part {
+.vendor-locations-ui .remit-to-ui .name_form .part,
+.vendor-locations-ui .purchasing-contact-ui .name_form .part {
   display: block;
 }
 
 /** Profile Pages **/
-.profile-view .ap-ten-add-button,
-.profile-view .miwt-collapsable,
-.vendor_information .ap-ten-add-button,
-.vendor_information .miwt-collapsable {
+.profile-view .vendor-locations-ui .ap-ten-add-button,
+.profile-view .vendor-locations-ui .miwt-collapsable,
+.vendor-locations-ui .vendor_information .ap-ten-add-button,
+.vendor-locations-ui .vendor_information .miwt-collapsable {
   max-width: 1000px;
 }
 
-.profile-view .client-location-column,
-.vendor_information .client-location-column {
+.profile-view .vendor-locations-ui .client-location-column,
+.vendor-locations-ui .vendor_information .client-location-column {
   width: 15%;
 }
 
-.client-location-column .select2-container--pt.select2-container--disabled .select2-selection--single,
-.client-location-column .select2-container--pt.select2-container--disabled .select2-selection--single .select2-selection__arrow,
-.vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single,
-.vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single .select2-selection__arrow {
+.vendor-locations-ui .client-location-column .select2-container--pt.select2-container--disabled .select2-selection--single,
+.vendor-locations-ui .client-location-column .select2-container--pt.select2-container--disabled
+.select2-selection--single .select2-selection__arrow,
+.vendor-locations-ui .vendor_information .select2-container--pt.select2-container--disabled .select2-selection--single,
+.vendor-locations-ui .vendor_information .select2-container--pt.select2-container--disabled
+.select2-selection--single .select2-selection__arrow {
   background-color: #d2d2d2;
 }
 
-.remit-to-ui .property_wrapper .prop,
-.purchasing-contact-ui .property_wrapper .prop {
+.vendor-locations-ui .remit-to-ui .property_wrapper .prop,
+.vendor-locations-ui .purchasing-contact-ui .property_wrapper .prop {
   width: 80%;
 }
 
-.remit-to-ui .property_wrapper .prop > label,
-.remit-to-ui .property_wrapper .prop > .label,
-.purchasing-contact-ui .property_wrapper .prop > label,
-.purchasing-contact-ui .property_wrapper .prop > .label {
+.vendor-locations-ui .remit-to-ui .property_wrapper .prop > label,
+.vendor-locations-ui .remit-to-ui .property_wrapper .prop > .label,
+.vendor-locations-ui .purchasing-contact-ui .property_wrapper .prop > label,
+.vendor-locations-ui .purchasing-contact-ui .property_wrapper .prop > .label {
   width: 150px;
 }
 
-.remit-to-ui .user_entry_required > label,
-.remit-to-ui .user_entry_required > .label,
-.purchasing-contact-ui .user_entry_required > label,
-.purchasing-contact-ui .user_entry_required > .label {
+.vendor-locations-ui .remit-to-ui .user_entry_required > label,
+.vendor-locations-ui .remit-to-ui .user_entry_required > .label,
+.vendor-locations-ui .purchasing-contact-ui .user_entry_required > label,
+.vendor-locations-ui .purchasing-contact-ui .user_entry_required > .label {
   background-position: 96% 4%;
 }
